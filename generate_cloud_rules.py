@@ -82,6 +82,9 @@ def build_notes(service: Dict[str, Any]) -> str:
     # Service area, e.g., Common, Exchange, SharePoint, or Skype
     if "serviceArea" in service:
         notes_parts.append(f"serviceArea: {service['serviceArea']}")
+    # Service area Display Name, e.g., Exchange Online, SharePoint Online, or Skype for Business Online
+    if "serviceAreaDisplayName" in service:
+        notes_parts.append(f"serviceAreaDisplayName: {service['serviceAreaDisplayName']}")    
     # TCP ports information, if provided
     if "tcpPorts" in service and service["tcpPorts"]:
         notes_parts.append(f"tcpPorts: {service['tcpPorts']}")
