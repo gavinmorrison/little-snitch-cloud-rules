@@ -90,7 +90,7 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
                 "action": "allow",
                 "process": "ANY",
                 "remote-hosts": [url],
-                "note": f"Product: {product}"
+                "notes": f"Product: {product}"
             })
             logging.info(f"Added rule for URL: {url} with note: Product: {product}")
         
