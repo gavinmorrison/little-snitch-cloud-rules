@@ -1,0 +1,2401 @@
+{
+    "name": "Microsoft Cloud Access",
+    "description": "Allows outbound traffic to Microsoft Cloud services.",
+    "author": "Automated Script",
+    "rules": [
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "outlook.cloud.microsoft"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "outlook.office.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "outlook.office365.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "13.107.6.152/31"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "13.107.18.10/31"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "13.107.128.0/22"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "23.103.160.0/20"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "40.96.0.0/13"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "40.104.0.0/15"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.96.0.0/14"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "131.253.33.215/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "132.245.0.0/16"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "150.171.32.0/22"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "204.79.197.215/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1006::/40"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1016::/36"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1026::/36"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1036::/36"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1046::/36"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1056::/36"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:4::152/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:4::153/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:c::10/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:c::11/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:d::10/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:d::11/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:8f0::/46"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:900::/46"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:a92::152/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:a92::153/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "outlook.office365.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "smtp.office365.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "13.107.6.152/31"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "13.107.18.10/31"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "13.107.128.0/22"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "23.103.160.0/20"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "40.96.0.0/13"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "40.104.0.0/15"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.96.0.0/14"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "131.253.33.215/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "132.245.0.0/16"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "150.171.32.0/22"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "204.79.197.215/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1006::/40"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1016::/36"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1026::/36"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1036::/36"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1046::/36"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1056::/36"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:4::152/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:4::153/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:c::10/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:c::11/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:d::10/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:d::11/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:8f0::/46"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:900::/46"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:a92::152/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:a92::153/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.outlook.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "autodiscover.*.onmicrosoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.protection.outlook.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "40.92.0.0/15"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "40.107.0.0/16"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.100.0.0/14"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.238.78.88/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "104.47.0.0/17"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2a01:111:f400::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2a01:111:f403::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.mail.protection.outlook.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.mx.microsoft"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "40.92.0.0/15"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "40.107.0.0/16"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.100.0.0/14"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "104.47.0.0/17"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2a01:111:f400::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2a01:111:f403::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.112.0.0/14"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.122.0.0/15"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1063::/38"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.lync.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.teams.cloud.microsoft"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.teams.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "teams.cloud.microsoft"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "teams.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.112.0.0/14"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.122.0.0/15"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.238.119.141/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.244.160.207/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1027::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1037::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1047::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1057::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1063::/38"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:6::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:40::/42"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.keydelivery.mediaservices.windows.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.streaming.mediaservices.windows.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "aka.ms"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.users.storage.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "adl.windows.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "join.secure.skypeassets.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "mlccdnprod.azureedge.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.sharepoint.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "13.107.136.0/22"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "40.108.128.0/17"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.104.0.0/14"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "104.146.128.0/17"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "150.171.40.0/22"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1061:1300::/40"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1063:6000::/35"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:8f8::/46"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:908::/46"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2a01:111:f402::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "ssw.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "storage.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.search.production.apac.trafficmanager.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.search.production.emea.trafficmanager.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.search.production.us.trafficmanager.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.wns.windows.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "admin.onedrive.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "officeclient.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "g.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "oneclient.sfx.ms"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.sharepointonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "spoprod-a.akamaihd.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.svc.ms"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.officeapps.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.online.office.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "office.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "13.107.6.171/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "13.107.18.15/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "13.107.140.6/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.108.0.0/14"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "52.244.37.168/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1006:1400::/40"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1016:2400::/40"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1026:2400::/40"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1036:2400::/40"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1046:1400::/40"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1056:1400::/40"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1063:2000::/38"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:c::15/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:8fc::6/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:a92::171/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2a01:111:f100:2000::a83e:3019/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2a01:111:f100:2002::8975:2d79/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2a01:111:f100:2002::8975:2da8/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2a01:111:f100:7000::6fdd:6cd5/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2a01:111:f100:a004::bfeb:88cf/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.office.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.onenote.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*cdn.onenote.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "ajax.aspnetcdn.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "apis.live.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "officeapps.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "www.onedrive.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.auth.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.msftidentity.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.msidentity.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "account.activedirectory.windowsazure.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "accounts.accesscontrol.windows.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "adminwebservice.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "api.passwordreset.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "autologon.microsoftazuread-sso.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "becws.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "ccs.login.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "clientconfig.microsoftonline-p.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "companymanager.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "device.login.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "graph.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "graph.windows.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "login-us.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "login.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "login.microsoftonline-p.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "login.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "login.windows.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "logincert.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "loginex.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "nexus.microsoftonline-p.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "passwordreset.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "provisioningapi.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "20.20.32.0/19"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "20.190.128.0/18"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "20.231.128.0/19"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "40.126.0.0/18"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1006:2000::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1007:200::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1016:1400::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1017::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1026:3000::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1027:1::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1036:3000::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1037:1::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1046:2000::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1047:1::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1056:2000::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2603:1057:2::/48"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.hip.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.microsoftonline-p.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.microsoftonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.msauth.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.msauthimages.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.msecnd.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.msftauth.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.msftauthimages.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.phonefactor.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "enterpriseregistration.windows.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.protection.office.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.security.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "compliance.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "defender.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "protection.office.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "purview.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "security.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "13.107.6.192/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "13.107.9.192/32"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:4::192/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "2620:1ec:a92::192/128"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.portal.cloudappsecurity.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.aria.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.events.data.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.o365weve.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "amp.azure.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "appsforoffice.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "assets.onestore.ms"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "auth.gfx.ms"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "c1.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "dgps.support.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "docs.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "msdn.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "platform.linkedin.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "prod.msocdn.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "shellprod.msocdn.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "support.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "technet.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.office365.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.aadrm.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.azurerms.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.informationprotection.azure.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "ecn.dev.virtualearth.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "informationprotection.hosting.portal.azure.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.sharepointonline.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "dc.services.visualstudio.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "mem.gfx.ms"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "staffhub.ms"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "staffhubweb.azureedge.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.msocdn.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.onmicrosoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "o15.officeredir.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "officepreviewredir.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "officeredir.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "r.office.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "activation.sls.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "crl.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "office15client.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "officeclient.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "go.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "ajax.aspnetcdn.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "cdn.odc.officeapps.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "officecdn.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "officecdn.microsoft.com.edgesuite.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "otelrules.azureedge.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.virtualearth.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "c.bing.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "ocos-office365-s2s.msedge.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "tse1.mm.bing.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "www.bing.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.acompli.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.outlookmobile.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "login.windows-ppe.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "account.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "login.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "www.acompli.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.appex-rf.msn.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.appex.bing.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "c.bing.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "c.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "d.docs.live.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "docs.live.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "partnerservices.getmicrosoftkey.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "signup.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "account.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "auth.gfx.ms"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "login.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.yammer.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.yammerusercontent.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.assets-yammer.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "www.outlook.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "eus-www.sway-cdn.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "eus-www.sway-extensions.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "wus-www.sway-cdn.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "wus-www.sway-extensions.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "sway.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "www.sway.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.entrust.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.geotrust.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.omniroot.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.public-trust.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.symcb.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.symcd.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.verisign.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.verisign.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "cacerts.digicert.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "cert.int-x3.letsencrypt.org"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "crl.globalsign.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "crl.globalsign.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "crl.identrust.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "crl3.digicert.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "crl4.digicert.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "isrg.trustid.ocsp.identrust.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "mscrl.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "ocsp.digicert.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "ocsp.globalsign.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "ocsp.msocsp.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "ocsp2.globalsign.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "ocspx.digicert.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "oneocsp.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "secure.globalsign.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "www.digicert.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "www.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "officespeech.platform.bing.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.skype.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.office.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "www.microsoft365.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.microsoftusercontent.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.azure-apim.net"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.flow.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.powerapps.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.powerautomate.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.activity.windows.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "activity.windows.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.cortana.ai"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "admin.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "cdn.odc.officeapps.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "cdn.uci.officeapps.live.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "compass-ssl.microsoft.com"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.cloud.microsoft"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.static.microsoft"
+            ]
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "*.usercontent.microsoft"
+            ]
+        }
+    ]
+}
