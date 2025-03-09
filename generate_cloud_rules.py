@@ -71,7 +71,49 @@ def fetch_microsoft_endpoints(timeout: int = 10) -> Any:
     logging.info("Successfully fetched Microsoft endpoint data.")
     return data
 
+def build_notes(service: Dict[str, Any]) -> str:
+    """
+    Build a notes string from the service metadata, excluding hosts and IPs.
+    """
+    notes_parts = []
+    # Include the immutable id
+    if "id" in service:
+        notes_parts.append(f"id: {service['id']}")
+    # Service area, e.g., Common, Exchange, SharePoint, or Skype
+    if "serviceArea" in service:
+        notes_parts.append(f"serviceArea: {service['serviceArea']}")
+    # TCP ports information, if provided
+    if "tcpPorts" in service and service["tcpPorts"]:
+        notes_parts.append(f"tcpPorts: {service['tcpPorts']}")
+    # UDP ports information, if provided
+    if "udpPorts" in service and service["udpPorts"]:
+        notes_parts.append(f"udpPorts: {service['udpPorts']}")
+    # Connectivity category: Optimize, Allow, or Default
+    if "category" in service:
+        notes_parts.append(f"category: {service['category']}")
+    # Whether the endpoint is routed over ExpressRoute
+    if "expressRoute" in service:
+        notes_parts.append(f"expressRoute: {service['expressRoute']}")
+    # Whether the endpoint is required for Microsoft 365 support
+    if "required" in service:
+        notes_parts.append(f"required: {service['required']}")
+    # Additional notes from the API, if any
+    if "notes" in service and service["notes"]:
+        notes_parts.append(f"notes: {service['notes']}")
+    
+    return "; ".join(notes_parts)
+
 def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
+    """
+    Extract relevant rules for outbound client traffic from endpoint data,
+    appending detailed metadata in the "notes" field.
+    
+    Args:
+        endpoints: The endpoint data from the API.
+        
+    Returns:
+        A list of dictionaries, each representing a rule.
+    """
     logging.info("Extracting rules from endpoint data...")
     rules = []
     
@@ -81,18 +123,18 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
         endpoints = endpoints.get("values", [])
     
     for service in endpoints:
-        # Extract a product/service identifier from the service object
-        product = service.get("serviceArea", "Microsoft Service")
+        # Build the notes from all available metadata excluding hosts/IPs
+        notes = build_notes(service)
         
         # Process URLs if available
         for url in service.get("urls", []):
             rules.append({
-                "action": "allow",
-                "process": "ANY",
+                "action": "allow",  # Allow traffic to Microsoft services
+                "process": "ANY",   # Any process accessing Microsoft services
                 "remote-hosts": [url],
-                "notes": f"Product: {product}"
+                "notes": notes
             })
-            logging.info(f"Added rule for URL: {url} with note: Product: {product}")
+            logging.info(f"Added rule for URL: {url} with notes: {notes}")
         
         # Process IP addresses if available
         for ip in service.get("ips", []):
@@ -100,9 +142,9 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
                 "action": "allow",
                 "process": "ANY",
                 "remote-hosts": [ip],
-                "note": f"Product: {product}"
+                "notes": notes
             })
-            logging.info(f"Added rule for IP: {ip} with note: Product: {product}")
+            logging.info(f"Added rule for IP: {ip} with notes: {notes}")
 
     logging.info("Rules extraction complete.")
     return rules
