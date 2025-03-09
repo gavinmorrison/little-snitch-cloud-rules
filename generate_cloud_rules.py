@@ -131,13 +131,19 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
         
         # Process URLs if available
         for url in service.get("urls", []):
+            # Decide which key to use: remote-hosts or remote-domains
+            if url.startswith("*."):
+                key = "remote-domains"
+            else:
+                key = "remote-hosts"
+
             rules.append({
-                "action": "allow",  # Allow traffic to Microsoft services
-                "process": "ANY",   # Any process accessing Microsoft services
-                "remote-hosts": [url],
+                "action": "allow",
+                "process": "ANY",
+                key: [url],
                 "notes": notes
             })
-            logging.info(f"Added rule for URL: {url} with notes: {notes}")
+            logging.info(f"Added rule for URL: {url} of type: {key} with notes: {notes}")
         
         # Process IP addresses if available
         for ip in service.get("ips", []):
