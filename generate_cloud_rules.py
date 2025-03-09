@@ -3,7 +3,9 @@
 Little Snitch Cloud Rules Generator
 -----------------------------------
 This script fetches cloud service provider endpoint data and generates 
-a .ov rule file formatted for Little Snitch on macOS.
+a .lsrules rule file formatted for Little Snitch on macOS.
+
+https://help.obdev.at/littlesnitch4/lsc-rule-group-subscriptions
 
 GitHub Repository: https://github.com/gavinmorrison/little-snitch-cloud-rules
 Author: Gavin Morrison
@@ -112,7 +114,7 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
 # Microsoft is the only provider supported at the moment
 def generate_ov_file(rules: List[Dict[str, Any]], provider: str = "microsoft") -> None:
     """
-    Generate the Little Snitch .ov rule file and save it in the rules/ directory.
+    Generate the Little Snitch .lsrules rule file and save it in the rules/ directory.
     
     Args:
         rules: A list of rules to be written into the file.
@@ -121,10 +123,10 @@ def generate_ov_file(rules: List[Dict[str, Any]], provider: str = "microsoft") -
     Raises:
         IOError: If writing to the file fails.
     """
-    logging.info(f"Generating .ov rule file for {provider}...")
+    logging.info(f"Generating .lsrules rule file for {provider}...")
 
     # Define a static filename for easy subscription
-    filename = f"cloud_rules_{provider}.ov"
+    filename = f"cloud_rules_{provider}.lsrules"
     file_path = os.path.join(OUTPUT_DIR, filename)
 
     subscription = {
@@ -148,7 +150,7 @@ def main() -> None:
         endpoints = fetch_microsoft_endpoints()
         rules = extract_rules(endpoints)
         generate_ov_file(rules, provider="microsoft")
-        logging.info("Done! You can now subscribe to the generated .ov file in Little Snitch.")
+        logging.info("Done! You can now subscribe to the generated .lsrules file in Little Snitch.")
     except Exception as e:
         logging.error(f"An error occurred: {e}")
 
