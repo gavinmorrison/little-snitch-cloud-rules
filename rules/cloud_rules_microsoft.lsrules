@@ -9,7 +9,7 @@
             "remote-hosts": [
                 "outlook.cloud.microsoft"
             ],
-            "note": "Product: Exchange"
+            "notes": "Product: Exchange"
         },
         {
             "action": "allow",
@@ -17,7 +17,7 @@
             "remote-hosts": [
                 "outlook.office.com"
             ],
-            "note": "Product: Exchange"
+            "notes": "Product: Exchange"
         },
         {
             "action": "allow",
@@ -25,7 +25,7 @@
             "remote-hosts": [
                 "outlook.office365.com"
             ],
-            "note": "Product: Exchange"
+            "notes": "Product: Exchange"
         },
         {
             "action": "allow",
@@ -249,7 +249,7 @@
             "remote-hosts": [
                 "outlook.office365.com"
             ],
-            "note": "Product: Exchange"
+            "notes": "Product: Exchange"
         },
         {
             "action": "allow",
@@ -257,7 +257,7 @@
             "remote-hosts": [
                 "smtp.office365.com"
             ],
-            "note": "Product: Exchange"
+            "notes": "Product: Exchange"
         },
         {
             "action": "allow",
@@ -481,7 +481,7 @@
             "remote-hosts": [
                 "*.outlook.com"
             ],
-            "note": "Product: Exchange"
+            "notes": "Product: Exchange"
         },
         {
             "action": "allow",
@@ -489,7 +489,7 @@
             "remote-hosts": [
                 "autodiscover.*.onmicrosoft.com"
             ],
-            "note": "Product: Exchange"
+            "notes": "Product: Exchange"
         },
         {
             "action": "allow",
@@ -497,7 +497,7 @@
             "remote-hosts": [
                 "*.protection.outlook.com"
             ],
-            "note": "Product: Exchange"
+            "notes": "Product: Exchange"
         },
         {
             "action": "allow",
@@ -561,7 +561,7 @@
             "remote-hosts": [
                 "*.mail.protection.outlook.com"
             ],
-            "note": "Product: Exchange"
+            "notes": "Product: Exchange"
         },
         {
             "action": "allow",
@@ -569,7 +569,7 @@
             "remote-hosts": [
                 "*.mx.microsoft"
             ],
-            "note": "Product: Exchange"
+            "notes": "Product: Exchange"
         },
         {
             "action": "allow",
@@ -649,7 +649,7 @@
             "remote-hosts": [
                 "*.lync.com"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -657,7 +657,7 @@
             "remote-hosts": [
                 "*.teams.cloud.microsoft"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -665,7 +665,7 @@
             "remote-hosts": [
                 "*.teams.microsoft.com"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -673,7 +673,7 @@
             "remote-hosts": [
                 "teams.cloud.microsoft"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -681,7 +681,7 @@
             "remote-hosts": [
                 "teams.microsoft.com"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -777,7 +777,7 @@
             "remote-hosts": [
                 "*.keydelivery.mediaservices.windows.net"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -785,7 +785,7 @@
             "remote-hosts": [
                 "*.streaming.mediaservices.windows.net"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -793,7 +793,7 @@
             "remote-hosts": [
                 "aka.ms"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -801,7 +801,7 @@
             "remote-hosts": [
                 "*.users.storage.live.com"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -809,7 +809,7 @@
             "remote-hosts": [
                 "adl.windows.com"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -817,7 +817,7 @@
             "remote-hosts": [
                 "join.secure.skypeassets.com"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -825,7 +825,7 @@
             "remote-hosts": [
                 "mlccdnprod.azureedge.net"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -833,7 +833,7 @@
             "remote-hosts": [
                 "*.sharepoint.com"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -921,7 +921,7 @@
             "remote-hosts": [
                 "ssw.live.com"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -929,7 +929,7 @@
             "remote-hosts": [
                 "storage.live.com"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -937,7 +937,7 @@
             "remote-hosts": [
                 "*.search.production.apac.trafficmanager.net"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -945,7 +945,7 @@
             "remote-hosts": [
                 "*.search.production.emea.trafficmanager.net"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -953,7 +953,7 @@
             "remote-hosts": [
                 "*.search.production.us.trafficmanager.net"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -961,7 +961,7 @@
             "remote-hosts": [
                 "*.wns.windows.com"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -969,7 +969,7 @@
             "remote-hosts": [
                 "admin.onedrive.com"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -977,7 +977,7 @@
             "remote-hosts": [
                 "officeclient.microsoft.com"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -985,7 +985,7 @@
             "remote-hosts": [
                 "g.live.com"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -993,7 +993,7 @@
             "remote-hosts": [
                 "oneclient.sfx.ms"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -1001,7 +1001,7 @@
             "remote-hosts": [
                 "*.sharepointonline.com"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -1009,7 +1009,7 @@
             "remote-hosts": [
                 "spoprod-a.akamaihd.net"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -1017,7 +1017,7 @@
             "remote-hosts": [
                 "*.svc.ms"
             ],
-            "note": "Product: SharePoint"
+            "notes": "Product: SharePoint"
         },
         {
             "action": "allow",
@@ -1025,7 +1025,7 @@
             "remote-hosts": [
                 "*.officeapps.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1033,7 +1033,7 @@
             "remote-hosts": [
                 "*.online.office.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1041,7 +1041,7 @@
             "remote-hosts": [
                 "office.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1209,7 +1209,7 @@
             "remote-hosts": [
                 "*.office.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1217,7 +1217,7 @@
             "remote-hosts": [
                 "*.onenote.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1225,7 +1225,7 @@
             "remote-hosts": [
                 "*.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1233,7 +1233,7 @@
             "remote-hosts": [
                 "*cdn.onenote.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1241,7 +1241,7 @@
             "remote-hosts": [
                 "ajax.aspnetcdn.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1249,7 +1249,7 @@
             "remote-hosts": [
                 "apis.live.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1257,7 +1257,7 @@
             "remote-hosts": [
                 "officeapps.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1265,7 +1265,7 @@
             "remote-hosts": [
                 "www.onedrive.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1273,7 +1273,7 @@
             "remote-hosts": [
                 "*.auth.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1281,7 +1281,7 @@
             "remote-hosts": [
                 "*.msftidentity.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1289,7 +1289,7 @@
             "remote-hosts": [
                 "*.msidentity.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1297,7 +1297,7 @@
             "remote-hosts": [
                 "account.activedirectory.windowsazure.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1305,7 +1305,7 @@
             "remote-hosts": [
                 "accounts.accesscontrol.windows.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1313,7 +1313,7 @@
             "remote-hosts": [
                 "adminwebservice.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1321,7 +1321,7 @@
             "remote-hosts": [
                 "api.passwordreset.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1329,7 +1329,7 @@
             "remote-hosts": [
                 "autologon.microsoftazuread-sso.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1337,7 +1337,7 @@
             "remote-hosts": [
                 "becws.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1345,7 +1345,7 @@
             "remote-hosts": [
                 "ccs.login.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1353,7 +1353,7 @@
             "remote-hosts": [
                 "clientconfig.microsoftonline-p.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1361,7 +1361,7 @@
             "remote-hosts": [
                 "companymanager.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1369,7 +1369,7 @@
             "remote-hosts": [
                 "device.login.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1377,7 +1377,7 @@
             "remote-hosts": [
                 "graph.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1385,7 +1385,7 @@
             "remote-hosts": [
                 "graph.windows.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1393,7 +1393,7 @@
             "remote-hosts": [
                 "login-us.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1401,7 +1401,7 @@
             "remote-hosts": [
                 "login.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1409,7 +1409,7 @@
             "remote-hosts": [
                 "login.microsoftonline-p.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1417,7 +1417,7 @@
             "remote-hosts": [
                 "login.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1425,7 +1425,7 @@
             "remote-hosts": [
                 "login.windows.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1433,7 +1433,7 @@
             "remote-hosts": [
                 "logincert.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1441,7 +1441,7 @@
             "remote-hosts": [
                 "loginex.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1449,7 +1449,7 @@
             "remote-hosts": [
                 "nexus.microsoftonline-p.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1457,7 +1457,7 @@
             "remote-hosts": [
                 "passwordreset.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1465,7 +1465,7 @@
             "remote-hosts": [
                 "provisioningapi.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1601,7 +1601,7 @@
             "remote-hosts": [
                 "*.hip.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1609,7 +1609,7 @@
             "remote-hosts": [
                 "*.microsoftonline-p.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1617,7 +1617,7 @@
             "remote-hosts": [
                 "*.microsoftonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1625,7 +1625,7 @@
             "remote-hosts": [
                 "*.msauth.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1633,7 +1633,7 @@
             "remote-hosts": [
                 "*.msauthimages.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1641,7 +1641,7 @@
             "remote-hosts": [
                 "*.msecnd.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1649,7 +1649,7 @@
             "remote-hosts": [
                 "*.msftauth.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1657,7 +1657,7 @@
             "remote-hosts": [
                 "*.msftauthimages.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1665,7 +1665,7 @@
             "remote-hosts": [
                 "*.phonefactor.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1673,7 +1673,7 @@
             "remote-hosts": [
                 "enterpriseregistration.windows.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1681,7 +1681,7 @@
             "remote-hosts": [
                 "*.protection.office.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1689,7 +1689,7 @@
             "remote-hosts": [
                 "*.security.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1697,7 +1697,7 @@
             "remote-hosts": [
                 "compliance.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1705,7 +1705,7 @@
             "remote-hosts": [
                 "defender.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1713,7 +1713,7 @@
             "remote-hosts": [
                 "protection.office.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1721,7 +1721,7 @@
             "remote-hosts": [
                 "purview.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1729,7 +1729,7 @@
             "remote-hosts": [
                 "security.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1769,7 +1769,7 @@
             "remote-hosts": [
                 "*.portal.cloudappsecurity.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1777,7 +1777,7 @@
             "remote-hosts": [
                 "*.aria.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1785,7 +1785,7 @@
             "remote-hosts": [
                 "*.events.data.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1793,7 +1793,7 @@
             "remote-hosts": [
                 "*.o365weve.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1801,7 +1801,7 @@
             "remote-hosts": [
                 "amp.azure.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1809,7 +1809,7 @@
             "remote-hosts": [
                 "appsforoffice.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1817,7 +1817,7 @@
             "remote-hosts": [
                 "assets.onestore.ms"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1825,7 +1825,7 @@
             "remote-hosts": [
                 "auth.gfx.ms"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1833,7 +1833,7 @@
             "remote-hosts": [
                 "c1.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1841,7 +1841,7 @@
             "remote-hosts": [
                 "dgps.support.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1849,7 +1849,7 @@
             "remote-hosts": [
                 "docs.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1857,7 +1857,7 @@
             "remote-hosts": [
                 "msdn.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1865,7 +1865,7 @@
             "remote-hosts": [
                 "platform.linkedin.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1873,7 +1873,7 @@
             "remote-hosts": [
                 "prod.msocdn.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1881,7 +1881,7 @@
             "remote-hosts": [
                 "shellprod.msocdn.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1889,7 +1889,7 @@
             "remote-hosts": [
                 "support.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1897,7 +1897,7 @@
             "remote-hosts": [
                 "technet.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1905,7 +1905,7 @@
             "remote-hosts": [
                 "*.office365.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1913,7 +1913,7 @@
             "remote-hosts": [
                 "*.aadrm.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1921,7 +1921,7 @@
             "remote-hosts": [
                 "*.azurerms.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1929,7 +1929,7 @@
             "remote-hosts": [
                 "*.informationprotection.azure.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1937,7 +1937,7 @@
             "remote-hosts": [
                 "ecn.dev.virtualearth.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1945,7 +1945,7 @@
             "remote-hosts": [
                 "informationprotection.hosting.portal.azure.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1953,7 +1953,7 @@
             "remote-hosts": [
                 "*.sharepointonline.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1961,7 +1961,7 @@
             "remote-hosts": [
                 "dc.services.visualstudio.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1969,7 +1969,7 @@
             "remote-hosts": [
                 "mem.gfx.ms"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1977,7 +1977,7 @@
             "remote-hosts": [
                 "staffhub.ms"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1985,7 +1985,7 @@
             "remote-hosts": [
                 "staffhubweb.azureedge.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -1993,7 +1993,7 @@
             "remote-hosts": [
                 "*.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2001,7 +2001,7 @@
             "remote-hosts": [
                 "*.msocdn.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2009,7 +2009,7 @@
             "remote-hosts": [
                 "*.onmicrosoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2017,7 +2017,7 @@
             "remote-hosts": [
                 "o15.officeredir.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2025,7 +2025,7 @@
             "remote-hosts": [
                 "officepreviewredir.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2033,7 +2033,7 @@
             "remote-hosts": [
                 "officeredir.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2041,7 +2041,7 @@
             "remote-hosts": [
                 "r.office.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2049,7 +2049,7 @@
             "remote-hosts": [
                 "activation.sls.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2057,7 +2057,7 @@
             "remote-hosts": [
                 "crl.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2065,7 +2065,7 @@
             "remote-hosts": [
                 "office15client.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2073,7 +2073,7 @@
             "remote-hosts": [
                 "officeclient.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2081,7 +2081,7 @@
             "remote-hosts": [
                 "go.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2089,7 +2089,7 @@
             "remote-hosts": [
                 "ajax.aspnetcdn.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2097,7 +2097,7 @@
             "remote-hosts": [
                 "cdn.odc.officeapps.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2105,7 +2105,7 @@
             "remote-hosts": [
                 "officecdn.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2113,7 +2113,7 @@
             "remote-hosts": [
                 "officecdn.microsoft.com.edgesuite.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2121,7 +2121,7 @@
             "remote-hosts": [
                 "otelrules.azureedge.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2129,7 +2129,7 @@
             "remote-hosts": [
                 "*.virtualearth.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2137,7 +2137,7 @@
             "remote-hosts": [
                 "c.bing.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2145,7 +2145,7 @@
             "remote-hosts": [
                 "ocos-office365-s2s.msedge.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2153,7 +2153,7 @@
             "remote-hosts": [
                 "tse1.mm.bing.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2161,7 +2161,7 @@
             "remote-hosts": [
                 "www.bing.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2169,7 +2169,7 @@
             "remote-hosts": [
                 "*.acompli.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2177,7 +2177,7 @@
             "remote-hosts": [
                 "*.outlookmobile.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2185,7 +2185,7 @@
             "remote-hosts": [
                 "login.windows-ppe.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2193,7 +2193,7 @@
             "remote-hosts": [
                 "account.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2201,7 +2201,7 @@
             "remote-hosts": [
                 "login.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2209,7 +2209,7 @@
             "remote-hosts": [
                 "www.acompli.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2217,7 +2217,7 @@
             "remote-hosts": [
                 "*.appex-rf.msn.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2225,7 +2225,7 @@
             "remote-hosts": [
                 "*.appex.bing.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2233,7 +2233,7 @@
             "remote-hosts": [
                 "c.bing.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2241,7 +2241,7 @@
             "remote-hosts": [
                 "c.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2249,7 +2249,7 @@
             "remote-hosts": [
                 "d.docs.live.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2257,7 +2257,7 @@
             "remote-hosts": [
                 "docs.live.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2265,7 +2265,7 @@
             "remote-hosts": [
                 "partnerservices.getmicrosoftkey.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2273,7 +2273,7 @@
             "remote-hosts": [
                 "signup.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2281,7 +2281,7 @@
             "remote-hosts": [
                 "account.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2289,7 +2289,7 @@
             "remote-hosts": [
                 "auth.gfx.ms"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2297,7 +2297,7 @@
             "remote-hosts": [
                 "login.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2305,7 +2305,7 @@
             "remote-hosts": [
                 "*.yammer.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2313,7 +2313,7 @@
             "remote-hosts": [
                 "*.yammerusercontent.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2321,7 +2321,7 @@
             "remote-hosts": [
                 "*.assets-yammer.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2329,7 +2329,7 @@
             "remote-hosts": [
                 "www.outlook.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2337,7 +2337,7 @@
             "remote-hosts": [
                 "eus-www.sway-cdn.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2345,7 +2345,7 @@
             "remote-hosts": [
                 "eus-www.sway-extensions.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2353,7 +2353,7 @@
             "remote-hosts": [
                 "wus-www.sway-cdn.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2361,7 +2361,7 @@
             "remote-hosts": [
                 "wus-www.sway-extensions.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2369,7 +2369,7 @@
             "remote-hosts": [
                 "sway.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2377,7 +2377,7 @@
             "remote-hosts": [
                 "www.sway.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2385,7 +2385,7 @@
             "remote-hosts": [
                 "*.entrust.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2393,7 +2393,7 @@
             "remote-hosts": [
                 "*.geotrust.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2401,7 +2401,7 @@
             "remote-hosts": [
                 "*.omniroot.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2409,7 +2409,7 @@
             "remote-hosts": [
                 "*.public-trust.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2417,7 +2417,7 @@
             "remote-hosts": [
                 "*.symcb.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2425,7 +2425,7 @@
             "remote-hosts": [
                 "*.symcd.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2433,7 +2433,7 @@
             "remote-hosts": [
                 "*.verisign.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2441,7 +2441,7 @@
             "remote-hosts": [
                 "*.verisign.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2449,7 +2449,7 @@
             "remote-hosts": [
                 "cacerts.digicert.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2457,7 +2457,7 @@
             "remote-hosts": [
                 "cert.int-x3.letsencrypt.org"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2465,7 +2465,7 @@
             "remote-hosts": [
                 "crl.globalsign.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2473,7 +2473,7 @@
             "remote-hosts": [
                 "crl.globalsign.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2481,7 +2481,7 @@
             "remote-hosts": [
                 "crl.identrust.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2489,7 +2489,7 @@
             "remote-hosts": [
                 "crl3.digicert.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2497,7 +2497,7 @@
             "remote-hosts": [
                 "crl4.digicert.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2505,7 +2505,7 @@
             "remote-hosts": [
                 "isrg.trustid.ocsp.identrust.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2513,7 +2513,7 @@
             "remote-hosts": [
                 "mscrl.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2521,7 +2521,7 @@
             "remote-hosts": [
                 "ocsp.digicert.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2529,7 +2529,7 @@
             "remote-hosts": [
                 "ocsp.globalsign.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2537,7 +2537,7 @@
             "remote-hosts": [
                 "ocsp.msocsp.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2545,7 +2545,7 @@
             "remote-hosts": [
                 "ocsp2.globalsign.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2553,7 +2553,7 @@
             "remote-hosts": [
                 "ocspx.digicert.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2561,7 +2561,7 @@
             "remote-hosts": [
                 "oneocsp.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2569,7 +2569,7 @@
             "remote-hosts": [
                 "secure.globalsign.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2577,7 +2577,7 @@
             "remote-hosts": [
                 "www.digicert.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2585,7 +2585,7 @@
             "remote-hosts": [
                 "www.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2593,7 +2593,7 @@
             "remote-hosts": [
                 "officespeech.platform.bing.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2601,7 +2601,7 @@
             "remote-hosts": [
                 "*.skype.com"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -2609,7 +2609,7 @@
             "remote-hosts": [
                 "*.office.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2617,7 +2617,7 @@
             "remote-hosts": [
                 "www.microsoft365.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2625,7 +2625,7 @@
             "remote-hosts": [
                 "*.microsoftusercontent.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2633,7 +2633,7 @@
             "remote-hosts": [
                 "*.azure-apim.net"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2641,7 +2641,7 @@
             "remote-hosts": [
                 "*.flow.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2649,7 +2649,7 @@
             "remote-hosts": [
                 "*.powerapps.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2657,7 +2657,7 @@
             "remote-hosts": [
                 "*.powerautomate.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2665,7 +2665,7 @@
             "remote-hosts": [
                 "*.activity.windows.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2673,7 +2673,7 @@
             "remote-hosts": [
                 "activity.windows.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2681,7 +2681,7 @@
             "remote-hosts": [
                 "*.cortana.ai"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2689,7 +2689,7 @@
             "remote-hosts": [
                 "admin.microsoft.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2697,7 +2697,7 @@
             "remote-hosts": [
                 "cdn.odc.officeapps.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2705,7 +2705,7 @@
             "remote-hosts": [
                 "cdn.uci.officeapps.live.com"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2713,7 +2713,7 @@
             "remote-hosts": [
                 "compass-ssl.microsoft.com"
             ],
-            "note": "Product: Skype"
+            "notes": "Product: Skype"
         },
         {
             "action": "allow",
@@ -2721,7 +2721,7 @@
             "remote-hosts": [
                 "*.cloud.microsoft"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2729,7 +2729,7 @@
             "remote-hosts": [
                 "*.static.microsoft"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         },
         {
             "action": "allow",
@@ -2737,7 +2737,7 @@
             "remote-hosts": [
                 "*.usercontent.microsoft"
             ],
-            "note": "Product: Common"
+            "notes": "Product: Common"
         }
     ]
 }
