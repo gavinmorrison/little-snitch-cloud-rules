@@ -9,7 +9,7 @@
             "remote-hosts": [
                 "outlook.cloud.microsoft"
             ],
-            "notes": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -17,7 +17,7 @@
             "remote-hosts": [
                 "outlook.office.com"
             ],
-            "notes": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -25,7 +25,7 @@
             "remote-hosts": [
                 "outlook.office365.com"
             ],
-            "notes": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -33,7 +33,7 @@
             "remote-hosts": [
                 "13.107.6.152/31"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -41,7 +41,7 @@
             "remote-hosts": [
                 "13.107.18.10/31"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -49,7 +49,7 @@
             "remote-hosts": [
                 "13.107.128.0/22"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -57,7 +57,7 @@
             "remote-hosts": [
                 "23.103.160.0/20"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -65,7 +65,7 @@
             "remote-hosts": [
                 "40.96.0.0/13"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -73,7 +73,7 @@
             "remote-hosts": [
                 "40.104.0.0/15"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -81,7 +81,7 @@
             "remote-hosts": [
                 "52.96.0.0/14"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -89,7 +89,7 @@
             "remote-hosts": [
                 "131.253.33.215/32"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -97,7 +97,7 @@
             "remote-hosts": [
                 "132.245.0.0/16"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -105,7 +105,7 @@
             "remote-hosts": [
                 "150.171.32.0/22"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -113,7 +113,7 @@
             "remote-hosts": [
                 "204.79.197.215/32"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -121,7 +121,7 @@
             "remote-hosts": [
                 "2603:1006::/40"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -129,7 +129,7 @@
             "remote-hosts": [
                 "2603:1016::/36"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -137,7 +137,7 @@
             "remote-hosts": [
                 "2603:1026::/36"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -145,7 +145,7 @@
             "remote-hosts": [
                 "2603:1036::/36"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -153,7 +153,7 @@
             "remote-hosts": [
                 "2603:1046::/36"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -161,7 +161,7 @@
             "remote-hosts": [
                 "2603:1056::/36"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -169,7 +169,7 @@
             "remote-hosts": [
                 "2620:1ec:4::152/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -177,7 +177,7 @@
             "remote-hosts": [
                 "2620:1ec:4::153/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -185,7 +185,7 @@
             "remote-hosts": [
                 "2620:1ec:c::10/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -193,7 +193,7 @@
             "remote-hosts": [
                 "2620:1ec:c::11/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -201,7 +201,7 @@
             "remote-hosts": [
                 "2620:1ec:d::10/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -209,7 +209,7 @@
             "remote-hosts": [
                 "2620:1ec:d::11/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -217,7 +217,7 @@
             "remote-hosts": [
                 "2620:1ec:8f0::/46"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -225,7 +225,7 @@
             "remote-hosts": [
                 "2620:1ec:900::/46"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -233,7 +233,7 @@
             "remote-hosts": [
                 "2620:1ec:a92::152/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -241,7 +241,7 @@
             "remote-hosts": [
                 "2620:1ec:a92::153/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 1; serviceArea: Exchange; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -249,7 +249,7 @@
             "remote-hosts": [
                 "outlook.office365.com"
             ],
-            "notes": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -257,7 +257,7 @@
             "remote-hosts": [
                 "smtp.office365.com"
             ],
-            "notes": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -265,7 +265,7 @@
             "remote-hosts": [
                 "13.107.6.152/31"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -273,7 +273,7 @@
             "remote-hosts": [
                 "13.107.18.10/31"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -281,7 +281,7 @@
             "remote-hosts": [
                 "13.107.128.0/22"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -289,7 +289,7 @@
             "remote-hosts": [
                 "23.103.160.0/20"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -297,7 +297,7 @@
             "remote-hosts": [
                 "40.96.0.0/13"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -305,7 +305,7 @@
             "remote-hosts": [
                 "40.104.0.0/15"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -313,7 +313,7 @@
             "remote-hosts": [
                 "52.96.0.0/14"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -321,7 +321,7 @@
             "remote-hosts": [
                 "131.253.33.215/32"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -329,7 +329,7 @@
             "remote-hosts": [
                 "132.245.0.0/16"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -337,7 +337,7 @@
             "remote-hosts": [
                 "150.171.32.0/22"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -345,7 +345,7 @@
             "remote-hosts": [
                 "204.79.197.215/32"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -353,7 +353,7 @@
             "remote-hosts": [
                 "2603:1006::/40"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -361,7 +361,7 @@
             "remote-hosts": [
                 "2603:1016::/36"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -369,7 +369,7 @@
             "remote-hosts": [
                 "2603:1026::/36"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -377,7 +377,7 @@
             "remote-hosts": [
                 "2603:1036::/36"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -385,7 +385,7 @@
             "remote-hosts": [
                 "2603:1046::/36"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -393,7 +393,7 @@
             "remote-hosts": [
                 "2603:1056::/36"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -401,7 +401,7 @@
             "remote-hosts": [
                 "2620:1ec:4::152/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -409,7 +409,7 @@
             "remote-hosts": [
                 "2620:1ec:4::153/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -417,7 +417,7 @@
             "remote-hosts": [
                 "2620:1ec:c::10/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -425,7 +425,7 @@
             "remote-hosts": [
                 "2620:1ec:c::11/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -433,7 +433,7 @@
             "remote-hosts": [
                 "2620:1ec:d::10/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -441,7 +441,7 @@
             "remote-hosts": [
                 "2620:1ec:d::11/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -449,7 +449,7 @@
             "remote-hosts": [
                 "2620:1ec:8f0::/46"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -457,7 +457,7 @@
             "remote-hosts": [
                 "2620:1ec:900::/46"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -465,7 +465,7 @@
             "remote-hosts": [
                 "2620:1ec:a92::152/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -473,7 +473,7 @@
             "remote-hosts": [
                 "2620:1ec:a92::153/128"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 2; serviceArea: Exchange; tcpPorts: 143, 587, 993, 995; category: Allow; expressRoute: True; required: False; notes: POP3, IMAP4, SMTP Client traffic"
         },
         {
             "action": "allow",
@@ -481,7 +481,7 @@
             "remote-hosts": [
                 "*.outlook.com"
             ],
-            "notes": "Product: Exchange"
+            "notes": "id: 8; serviceArea: Exchange; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -489,7 +489,7 @@
             "remote-hosts": [
                 "autodiscover.*.onmicrosoft.com"
             ],
-            "notes": "Product: Exchange"
+            "notes": "id: 8; serviceArea: Exchange; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -497,7 +497,7 @@
             "remote-hosts": [
                 "*.protection.outlook.com"
             ],
-            "notes": "Product: Exchange"
+            "notes": "id: 9; serviceArea: Exchange; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -505,7 +505,7 @@
             "remote-hosts": [
                 "40.92.0.0/15"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 9; serviceArea: Exchange; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -513,7 +513,7 @@
             "remote-hosts": [
                 "40.107.0.0/16"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 9; serviceArea: Exchange; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -521,7 +521,7 @@
             "remote-hosts": [
                 "52.100.0.0/14"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 9; serviceArea: Exchange; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -529,7 +529,7 @@
             "remote-hosts": [
                 "52.238.78.88/32"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 9; serviceArea: Exchange; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -537,7 +537,7 @@
             "remote-hosts": [
                 "104.47.0.0/17"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 9; serviceArea: Exchange; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -545,7 +545,7 @@
             "remote-hosts": [
                 "2a01:111:f400::/48"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 9; serviceArea: Exchange; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -553,7 +553,7 @@
             "remote-hosts": [
                 "2a01:111:f403::/48"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 9; serviceArea: Exchange; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -561,7 +561,7 @@
             "remote-hosts": [
                 "*.mail.protection.outlook.com"
             ],
-            "notes": "Product: Exchange"
+            "notes": "id: 10; serviceArea: Exchange; tcpPorts: 25; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -569,7 +569,7 @@
             "remote-hosts": [
                 "*.mx.microsoft"
             ],
-            "notes": "Product: Exchange"
+            "notes": "id: 10; serviceArea: Exchange; tcpPorts: 25; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -577,7 +577,7 @@
             "remote-hosts": [
                 "40.92.0.0/15"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 10; serviceArea: Exchange; tcpPorts: 25; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -585,7 +585,7 @@
             "remote-hosts": [
                 "40.107.0.0/16"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 10; serviceArea: Exchange; tcpPorts: 25; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -593,7 +593,7 @@
             "remote-hosts": [
                 "52.100.0.0/14"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 10; serviceArea: Exchange; tcpPorts: 25; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -601,7 +601,7 @@
             "remote-hosts": [
                 "104.47.0.0/17"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 10; serviceArea: Exchange; tcpPorts: 25; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -609,7 +609,7 @@
             "remote-hosts": [
                 "2a01:111:f400::/48"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 10; serviceArea: Exchange; tcpPorts: 25; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -617,7 +617,7 @@
             "remote-hosts": [
                 "2a01:111:f403::/48"
             ],
-            "note": "Product: Exchange"
+            "notes": "id: 10; serviceArea: Exchange; tcpPorts: 25; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -625,7 +625,7 @@
             "remote-hosts": [
                 "52.112.0.0/14"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 11; serviceArea: Skype; udpPorts: 3478,3479,3480,3481; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -633,7 +633,7 @@
             "remote-hosts": [
                 "52.122.0.0/15"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 11; serviceArea: Skype; udpPorts: 3478,3479,3480,3481; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -641,7 +641,7 @@
             "remote-hosts": [
                 "2603:1063::/38"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 11; serviceArea: Skype; udpPorts: 3478,3479,3480,3481; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -649,7 +649,7 @@
             "remote-hosts": [
                 "*.lync.com"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -657,7 +657,7 @@
             "remote-hosts": [
                 "*.teams.cloud.microsoft"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -665,7 +665,7 @@
             "remote-hosts": [
                 "*.teams.microsoft.com"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -673,7 +673,7 @@
             "remote-hosts": [
                 "teams.cloud.microsoft"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -681,7 +681,7 @@
             "remote-hosts": [
                 "teams.microsoft.com"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -689,7 +689,7 @@
             "remote-hosts": [
                 "52.112.0.0/14"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -697,7 +697,7 @@
             "remote-hosts": [
                 "52.122.0.0/15"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -705,7 +705,7 @@
             "remote-hosts": [
                 "52.238.119.141/32"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -713,7 +713,7 @@
             "remote-hosts": [
                 "52.244.160.207/32"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -721,7 +721,7 @@
             "remote-hosts": [
                 "2603:1027::/48"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -729,7 +729,7 @@
             "remote-hosts": [
                 "2603:1037::/48"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -737,7 +737,7 @@
             "remote-hosts": [
                 "2603:1047::/48"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -745,7 +745,7 @@
             "remote-hosts": [
                 "2603:1057::/48"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -753,7 +753,7 @@
             "remote-hosts": [
                 "2603:1063::/38"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -761,7 +761,7 @@
             "remote-hosts": [
                 "2620:1ec:6::/48"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -769,7 +769,7 @@
             "remote-hosts": [
                 "2620:1ec:40::/42"
             ],
-            "note": "Product: Skype"
+            "notes": "id: 12; serviceArea: Skype; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -777,7 +777,7 @@
             "remote-hosts": [
                 "*.keydelivery.mediaservices.windows.net"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 16; serviceArea: Skype; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -785,7 +785,7 @@
             "remote-hosts": [
                 "*.streaming.mediaservices.windows.net"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 16; serviceArea: Skype; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -793,7 +793,7 @@
             "remote-hosts": [
                 "aka.ms"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 17; serviceArea: Skype; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -801,7 +801,7 @@
             "remote-hosts": [
                 "*.users.storage.live.com"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 18; serviceArea: Skype; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Federation with Skype and public IM connectivity: Contact picture retrieval"
         },
         {
             "action": "allow",
@@ -809,7 +809,7 @@
             "remote-hosts": [
                 "adl.windows.com"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 19; serviceArea: Skype; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: For end user and customer owned device updates"
         },
         {
             "action": "allow",
@@ -817,7 +817,7 @@
             "remote-hosts": [
                 "join.secure.skypeassets.com"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 27; serviceArea: Skype; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -825,7 +825,7 @@
             "remote-hosts": [
                 "mlccdnprod.azureedge.net"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 27; serviceArea: Skype; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -833,7 +833,7 @@
             "remote-hosts": [
                 "*.sharepoint.com"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 31; serviceArea: SharePoint; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -841,7 +841,7 @@
             "remote-hosts": [
                 "13.107.136.0/22"
             ],
-            "note": "Product: SharePoint"
+            "notes": "id: 31; serviceArea: SharePoint; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -849,7 +849,7 @@
             "remote-hosts": [
                 "40.108.128.0/17"
             ],
-            "note": "Product: SharePoint"
+            "notes": "id: 31; serviceArea: SharePoint; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -857,7 +857,7 @@
             "remote-hosts": [
                 "52.104.0.0/14"
             ],
-            "note": "Product: SharePoint"
+            "notes": "id: 31; serviceArea: SharePoint; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -865,7 +865,7 @@
             "remote-hosts": [
                 "104.146.128.0/17"
             ],
-            "note": "Product: SharePoint"
+            "notes": "id: 31; serviceArea: SharePoint; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -873,7 +873,7 @@
             "remote-hosts": [
                 "150.171.40.0/22"
             ],
-            "note": "Product: SharePoint"
+            "notes": "id: 31; serviceArea: SharePoint; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -881,7 +881,7 @@
             "remote-hosts": [
                 "2603:1061:1300::/40"
             ],
-            "note": "Product: SharePoint"
+            "notes": "id: 31; serviceArea: SharePoint; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -889,7 +889,7 @@
             "remote-hosts": [
                 "2603:1063:6000::/35"
             ],
-            "note": "Product: SharePoint"
+            "notes": "id: 31; serviceArea: SharePoint; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -897,7 +897,7 @@
             "remote-hosts": [
                 "2620:1ec:8f8::/46"
             ],
-            "note": "Product: SharePoint"
+            "notes": "id: 31; serviceArea: SharePoint; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -905,7 +905,7 @@
             "remote-hosts": [
                 "2620:1ec:908::/46"
             ],
-            "note": "Product: SharePoint"
+            "notes": "id: 31; serviceArea: SharePoint; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -913,7 +913,7 @@
             "remote-hosts": [
                 "2a01:111:f402::/48"
             ],
-            "note": "Product: SharePoint"
+            "notes": "id: 31; serviceArea: SharePoint; tcpPorts: 80,443; udpPorts: 443; category: Optimize; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -921,7 +921,7 @@
             "remote-hosts": [
                 "ssw.live.com"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 32; serviceArea: SharePoint; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: OneDrive for Business: supportability, telemetry, APIs, and embedded email links"
         },
         {
             "action": "allow",
@@ -929,7 +929,7 @@
             "remote-hosts": [
                 "storage.live.com"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 32; serviceArea: SharePoint; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: OneDrive for Business: supportability, telemetry, APIs, and embedded email links"
         },
         {
             "action": "allow",
@@ -937,7 +937,7 @@
             "remote-hosts": [
                 "*.search.production.apac.trafficmanager.net"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 33; serviceArea: SharePoint; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents"
         },
         {
             "action": "allow",
@@ -945,7 +945,7 @@
             "remote-hosts": [
                 "*.search.production.emea.trafficmanager.net"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 33; serviceArea: SharePoint; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents"
         },
         {
             "action": "allow",
@@ -953,7 +953,7 @@
             "remote-hosts": [
                 "*.search.production.us.trafficmanager.net"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 33; serviceArea: SharePoint; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents"
         },
         {
             "action": "allow",
@@ -961,7 +961,7 @@
             "remote-hosts": [
                 "*.wns.windows.com"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 35; serviceArea: SharePoint; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -969,7 +969,7 @@
             "remote-hosts": [
                 "admin.onedrive.com"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 35; serviceArea: SharePoint; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -977,7 +977,7 @@
             "remote-hosts": [
                 "officeclient.microsoft.com"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 35; serviceArea: SharePoint; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -985,7 +985,7 @@
             "remote-hosts": [
                 "g.live.com"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 36; serviceArea: SharePoint; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -993,7 +993,7 @@
             "remote-hosts": [
                 "oneclient.sfx.ms"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 36; serviceArea: SharePoint; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1001,7 +1001,7 @@
             "remote-hosts": [
                 "*.sharepointonline.com"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 37; serviceArea: SharePoint; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1009,7 +1009,7 @@
             "remote-hosts": [
                 "spoprod-a.akamaihd.net"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 37; serviceArea: SharePoint; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1017,7 +1017,7 @@
             "remote-hosts": [
                 "*.svc.ms"
             ],
-            "notes": "Product: SharePoint"
+            "notes": "id: 39; serviceArea: SharePoint; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1025,7 +1025,7 @@
             "remote-hosts": [
                 "*.officeapps.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1033,7 +1033,7 @@
             "remote-hosts": [
                 "*.online.office.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1041,7 +1041,7 @@
             "remote-hosts": [
                 "office.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1049,7 +1049,7 @@
             "remote-hosts": [
                 "13.107.6.171/32"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1057,7 +1057,7 @@
             "remote-hosts": [
                 "13.107.18.15/32"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1065,7 +1065,7 @@
             "remote-hosts": [
                 "13.107.140.6/32"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1073,7 +1073,7 @@
             "remote-hosts": [
                 "52.108.0.0/14"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1081,7 +1081,7 @@
             "remote-hosts": [
                 "52.244.37.168/32"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1089,7 +1089,7 @@
             "remote-hosts": [
                 "2603:1006:1400::/40"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1097,7 +1097,7 @@
             "remote-hosts": [
                 "2603:1016:2400::/40"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1105,7 +1105,7 @@
             "remote-hosts": [
                 "2603:1026:2400::/40"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1113,7 +1113,7 @@
             "remote-hosts": [
                 "2603:1036:2400::/40"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1121,7 +1121,7 @@
             "remote-hosts": [
                 "2603:1046:1400::/40"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1129,7 +1129,7 @@
             "remote-hosts": [
                 "2603:1056:1400::/40"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1137,7 +1137,7 @@
             "remote-hosts": [
                 "2603:1063:2000::/38"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1145,7 +1145,7 @@
             "remote-hosts": [
                 "2620:1ec:c::15/128"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1153,7 +1153,7 @@
             "remote-hosts": [
                 "2620:1ec:8fc::6/128"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1161,7 +1161,7 @@
             "remote-hosts": [
                 "2620:1ec:a92::171/128"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1169,7 +1169,7 @@
             "remote-hosts": [
                 "2a01:111:f100:2000::a83e:3019/128"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1177,7 +1177,7 @@
             "remote-hosts": [
                 "2a01:111:f100:2002::8975:2d79/128"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1185,7 +1185,7 @@
             "remote-hosts": [
                 "2a01:111:f100:2002::8975:2da8/128"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1193,7 +1193,7 @@
             "remote-hosts": [
                 "2a01:111:f100:7000::6fdd:6cd5/128"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1201,7 +1201,7 @@
             "remote-hosts": [
                 "2a01:111:f100:a004::bfeb:88cf/128"
             ],
-            "note": "Product: Common"
+            "notes": "id: 46; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1209,7 +1209,7 @@
             "remote-hosts": [
                 "*.office.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 47; serviceArea: Common; tcpPorts: 443,80; udpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1217,7 +1217,7 @@
             "remote-hosts": [
                 "*.onenote.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 49; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1225,7 +1225,7 @@
             "remote-hosts": [
                 "*.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 50; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: OneNote notebooks (wildcards)"
         },
         {
             "action": "allow",
@@ -1233,7 +1233,7 @@
             "remote-hosts": [
                 "*cdn.onenote.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 51; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1241,7 +1241,7 @@
             "remote-hosts": [
                 "ajax.aspnetcdn.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 53; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1249,7 +1249,7 @@
             "remote-hosts": [
                 "apis.live.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 53; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1257,7 +1257,7 @@
             "remote-hosts": [
                 "officeapps.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 53; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1265,7 +1265,7 @@
             "remote-hosts": [
                 "www.onedrive.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 53; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1273,7 +1273,7 @@
             "remote-hosts": [
                 "*.auth.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1281,7 +1281,7 @@
             "remote-hosts": [
                 "*.msftidentity.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1289,7 +1289,7 @@
             "remote-hosts": [
                 "*.msidentity.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1297,7 +1297,7 @@
             "remote-hosts": [
                 "account.activedirectory.windowsazure.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1305,7 +1305,7 @@
             "remote-hosts": [
                 "accounts.accesscontrol.windows.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1313,7 +1313,7 @@
             "remote-hosts": [
                 "adminwebservice.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1321,7 +1321,7 @@
             "remote-hosts": [
                 "api.passwordreset.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1329,7 +1329,7 @@
             "remote-hosts": [
                 "autologon.microsoftazuread-sso.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1337,7 +1337,7 @@
             "remote-hosts": [
                 "becws.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1345,7 +1345,7 @@
             "remote-hosts": [
                 "ccs.login.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1353,7 +1353,7 @@
             "remote-hosts": [
                 "clientconfig.microsoftonline-p.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1361,7 +1361,7 @@
             "remote-hosts": [
                 "companymanager.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1369,7 +1369,7 @@
             "remote-hosts": [
                 "device.login.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1377,7 +1377,7 @@
             "remote-hosts": [
                 "graph.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1385,7 +1385,7 @@
             "remote-hosts": [
                 "graph.windows.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1393,7 +1393,7 @@
             "remote-hosts": [
                 "login-us.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1401,7 +1401,7 @@
             "remote-hosts": [
                 "login.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1409,7 +1409,7 @@
             "remote-hosts": [
                 "login.microsoftonline-p.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1417,7 +1417,7 @@
             "remote-hosts": [
                 "login.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1425,7 +1425,7 @@
             "remote-hosts": [
                 "login.windows.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1433,7 +1433,7 @@
             "remote-hosts": [
                 "logincert.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1441,7 +1441,7 @@
             "remote-hosts": [
                 "loginex.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1449,7 +1449,7 @@
             "remote-hosts": [
                 "nexus.microsoftonline-p.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1457,7 +1457,7 @@
             "remote-hosts": [
                 "passwordreset.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1465,7 +1465,7 @@
             "remote-hosts": [
                 "provisioningapi.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1473,7 +1473,7 @@
             "remote-hosts": [
                 "20.20.32.0/19"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1481,7 +1481,7 @@
             "remote-hosts": [
                 "20.190.128.0/18"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1489,7 +1489,7 @@
             "remote-hosts": [
                 "20.231.128.0/19"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1497,7 +1497,7 @@
             "remote-hosts": [
                 "40.126.0.0/18"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1505,7 +1505,7 @@
             "remote-hosts": [
                 "2603:1006:2000::/48"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1513,7 +1513,7 @@
             "remote-hosts": [
                 "2603:1007:200::/48"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1521,7 +1521,7 @@
             "remote-hosts": [
                 "2603:1016:1400::/48"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1529,7 +1529,7 @@
             "remote-hosts": [
                 "2603:1017::/48"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1537,7 +1537,7 @@
             "remote-hosts": [
                 "2603:1026:3000::/48"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1545,7 +1545,7 @@
             "remote-hosts": [
                 "2603:1027:1::/48"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1553,7 +1553,7 @@
             "remote-hosts": [
                 "2603:1036:3000::/48"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1561,7 +1561,7 @@
             "remote-hosts": [
                 "2603:1037:1::/48"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1569,7 +1569,7 @@
             "remote-hosts": [
                 "2603:1046:2000::/48"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1577,7 +1577,7 @@
             "remote-hosts": [
                 "2603:1047:1::/48"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1585,7 +1585,7 @@
             "remote-hosts": [
                 "2603:1056:2000::/48"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1593,7 +1593,7 @@
             "remote-hosts": [
                 "2603:1057:2::/48"
             ],
-            "note": "Product: Common"
+            "notes": "id: 56; serviceArea: Common; tcpPorts: 80,443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1601,7 +1601,7 @@
             "remote-hosts": [
                 "*.hip.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 59; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1609,7 +1609,7 @@
             "remote-hosts": [
                 "*.microsoftonline-p.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 59; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1617,7 +1617,7 @@
             "remote-hosts": [
                 "*.microsoftonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 59; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1625,7 +1625,7 @@
             "remote-hosts": [
                 "*.msauth.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 59; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1633,7 +1633,7 @@
             "remote-hosts": [
                 "*.msauthimages.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 59; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1641,7 +1641,7 @@
             "remote-hosts": [
                 "*.msecnd.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 59; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1649,7 +1649,7 @@
             "remote-hosts": [
                 "*.msftauth.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 59; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1657,7 +1657,7 @@
             "remote-hosts": [
                 "*.msftauthimages.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 59; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1665,7 +1665,7 @@
             "remote-hosts": [
                 "*.phonefactor.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 59; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1673,7 +1673,7 @@
             "remote-hosts": [
                 "enterpriseregistration.windows.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 59; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1681,7 +1681,7 @@
             "remote-hosts": [
                 "*.protection.office.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 64; serviceArea: Common; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1689,7 +1689,7 @@
             "remote-hosts": [
                 "*.security.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 64; serviceArea: Common; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1697,7 +1697,7 @@
             "remote-hosts": [
                 "compliance.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 64; serviceArea: Common; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1705,7 +1705,7 @@
             "remote-hosts": [
                 "defender.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 64; serviceArea: Common; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1713,7 +1713,7 @@
             "remote-hosts": [
                 "protection.office.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 64; serviceArea: Common; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1721,7 +1721,7 @@
             "remote-hosts": [
                 "purview.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 64; serviceArea: Common; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1729,7 +1729,7 @@
             "remote-hosts": [
                 "security.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 64; serviceArea: Common; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1737,7 +1737,7 @@
             "remote-hosts": [
                 "13.107.6.192/32"
             ],
-            "note": "Product: Common"
+            "notes": "id: 64; serviceArea: Common; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1745,7 +1745,7 @@
             "remote-hosts": [
                 "13.107.9.192/32"
             ],
-            "note": "Product: Common"
+            "notes": "id: 64; serviceArea: Common; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1753,7 +1753,7 @@
             "remote-hosts": [
                 "2620:1ec:4::192/128"
             ],
-            "note": "Product: Common"
+            "notes": "id: 64; serviceArea: Common; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1761,7 +1761,7 @@
             "remote-hosts": [
                 "2620:1ec:a92::192/128"
             ],
-            "note": "Product: Common"
+            "notes": "id: 64; serviceArea: Common; tcpPorts: 443; category: Allow; expressRoute: True; required: True"
         },
         {
             "action": "allow",
@@ -1769,7 +1769,7 @@
             "remote-hosts": [
                 "*.portal.cloudappsecurity.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 66; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1777,7 +1777,7 @@
             "remote-hosts": [
                 "*.aria.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 69; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1785,7 +1785,7 @@
             "remote-hosts": [
                 "*.events.data.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 69; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1793,7 +1793,7 @@
             "remote-hosts": [
                 "*.o365weve.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1801,7 +1801,7 @@
             "remote-hosts": [
                 "amp.azure.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1809,7 +1809,7 @@
             "remote-hosts": [
                 "appsforoffice.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1817,7 +1817,7 @@
             "remote-hosts": [
                 "assets.onestore.ms"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1825,7 +1825,7 @@
             "remote-hosts": [
                 "auth.gfx.ms"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1833,7 +1833,7 @@
             "remote-hosts": [
                 "c1.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1841,7 +1841,7 @@
             "remote-hosts": [
                 "dgps.support.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1849,7 +1849,7 @@
             "remote-hosts": [
                 "docs.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1857,7 +1857,7 @@
             "remote-hosts": [
                 "msdn.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1865,7 +1865,7 @@
             "remote-hosts": [
                 "platform.linkedin.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1873,7 +1873,7 @@
             "remote-hosts": [
                 "prod.msocdn.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1881,7 +1881,7 @@
             "remote-hosts": [
                 "shellprod.msocdn.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1889,7 +1889,7 @@
             "remote-hosts": [
                 "support.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1897,7 +1897,7 @@
             "remote-hosts": [
                 "technet.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 70; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1905,7 +1905,7 @@
             "remote-hosts": [
                 "*.office365.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 71; serviceArea: Common; tcpPorts: 443,80; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1913,7 +1913,7 @@
             "remote-hosts": [
                 "*.aadrm.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 73; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1921,7 +1921,7 @@
             "remote-hosts": [
                 "*.azurerms.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 73; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1929,7 +1929,7 @@
             "remote-hosts": [
                 "*.informationprotection.azure.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 73; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1937,7 +1937,7 @@
             "remote-hosts": [
                 "ecn.dev.virtualearth.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 73; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1945,7 +1945,7 @@
             "remote-hosts": [
                 "informationprotection.hosting.portal.azure.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 73; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -1953,7 +1953,7 @@
             "remote-hosts": [
                 "*.sharepointonline.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 75; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services"
         },
         {
             "action": "allow",
@@ -1961,7 +1961,7 @@
             "remote-hosts": [
                 "dc.services.visualstudio.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 75; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services"
         },
         {
             "action": "allow",
@@ -1969,7 +1969,7 @@
             "remote-hosts": [
                 "mem.gfx.ms"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 75; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services"
         },
         {
             "action": "allow",
@@ -1977,7 +1977,7 @@
             "remote-hosts": [
                 "staffhub.ms"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 75; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services"
         },
         {
             "action": "allow",
@@ -1985,7 +1985,7 @@
             "remote-hosts": [
                 "staffhubweb.azureedge.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 75; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services"
         },
         {
             "action": "allow",
@@ -1993,7 +1993,7 @@
             "remote-hosts": [
                 "*.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 78; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Some Office 365 features require endpoints within these domains (including CDNs). Many specific FQDNs within these wildcards have been published recently as we work to either remove or better explain our guidance relating to these wildcards."
         },
         {
             "action": "allow",
@@ -2001,7 +2001,7 @@
             "remote-hosts": [
                 "*.msocdn.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 78; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Some Office 365 features require endpoints within these domains (including CDNs). Many specific FQDNs within these wildcards have been published recently as we work to either remove or better explain our guidance relating to these wildcards."
         },
         {
             "action": "allow",
@@ -2009,7 +2009,7 @@
             "remote-hosts": [
                 "*.onmicrosoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 78; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Some Office 365 features require endpoints within these domains (including CDNs). Many specific FQDNs within these wildcards have been published recently as we work to either remove or better explain our guidance relating to these wildcards."
         },
         {
             "action": "allow",
@@ -2017,7 +2017,7 @@
             "remote-hosts": [
                 "o15.officeredir.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 79; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2025,7 +2025,7 @@
             "remote-hosts": [
                 "officepreviewredir.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 79; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2033,7 +2033,7 @@
             "remote-hosts": [
                 "officeredir.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 79; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2041,7 +2041,7 @@
             "remote-hosts": [
                 "r.office.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 79; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2049,7 +2049,7 @@
             "remote-hosts": [
                 "activation.sls.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 83; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2057,7 +2057,7 @@
             "remote-hosts": [
                 "crl.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 84; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2065,7 +2065,7 @@
             "remote-hosts": [
                 "office15client.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 86; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2073,7 +2073,7 @@
             "remote-hosts": [
                 "officeclient.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 86; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2081,7 +2081,7 @@
             "remote-hosts": [
                 "go.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 89; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2089,7 +2089,7 @@
             "remote-hosts": [
                 "ajax.aspnetcdn.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 91; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2097,7 +2097,7 @@
             "remote-hosts": [
                 "cdn.odc.officeapps.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 91; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2105,7 +2105,7 @@
             "remote-hosts": [
                 "officecdn.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 92; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2113,7 +2113,7 @@
             "remote-hosts": [
                 "officecdn.microsoft.com.edgesuite.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 92; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2121,7 +2121,7 @@
             "remote-hosts": [
                 "otelrules.azureedge.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 92; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2129,7 +2129,7 @@
             "remote-hosts": [
                 "*.virtualearth.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 93; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: ProPlus: auxiliary URLs"
         },
         {
             "action": "allow",
@@ -2137,7 +2137,7 @@
             "remote-hosts": [
                 "c.bing.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 93; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: ProPlus: auxiliary URLs"
         },
         {
             "action": "allow",
@@ -2145,7 +2145,7 @@
             "remote-hosts": [
                 "ocos-office365-s2s.msedge.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 93; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: ProPlus: auxiliary URLs"
         },
         {
             "action": "allow",
@@ -2153,7 +2153,7 @@
             "remote-hosts": [
                 "tse1.mm.bing.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 93; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: ProPlus: auxiliary URLs"
         },
         {
             "action": "allow",
@@ -2161,7 +2161,7 @@
             "remote-hosts": [
                 "www.bing.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 93; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: ProPlus: auxiliary URLs"
         },
         {
             "action": "allow",
@@ -2169,7 +2169,7 @@
             "remote-hosts": [
                 "*.acompli.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 95; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Outlook for Android and iOS"
         },
         {
             "action": "allow",
@@ -2177,7 +2177,7 @@
             "remote-hosts": [
                 "*.outlookmobile.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 95; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Outlook for Android and iOS"
         },
         {
             "action": "allow",
@@ -2185,7 +2185,7 @@
             "remote-hosts": [
                 "login.windows-ppe.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 96; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Outlook for Android and iOS: Authentication"
         },
         {
             "action": "allow",
@@ -2193,7 +2193,7 @@
             "remote-hosts": [
                 "account.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 97; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Outlook for Android and iOS: Consumer Outlook.com and OneDrive integration"
         },
         {
             "action": "allow",
@@ -2201,7 +2201,7 @@
             "remote-hosts": [
                 "login.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 97; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Outlook for Android and iOS: Consumer Outlook.com and OneDrive integration"
         },
         {
             "action": "allow",
@@ -2209,7 +2209,7 @@
             "remote-hosts": [
                 "www.acompli.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 105; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Outlook for Android and iOS: Outlook Privacy"
         },
         {
             "action": "allow",
@@ -2217,7 +2217,7 @@
             "remote-hosts": [
                 "*.appex-rf.msn.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 114; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Office Mobile URLs"
         },
         {
             "action": "allow",
@@ -2225,7 +2225,7 @@
             "remote-hosts": [
                 "*.appex.bing.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 114; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Office Mobile URLs"
         },
         {
             "action": "allow",
@@ -2233,7 +2233,7 @@
             "remote-hosts": [
                 "c.bing.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 114; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Office Mobile URLs"
         },
         {
             "action": "allow",
@@ -2241,7 +2241,7 @@
             "remote-hosts": [
                 "c.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 114; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Office Mobile URLs"
         },
         {
             "action": "allow",
@@ -2249,7 +2249,7 @@
             "remote-hosts": [
                 "d.docs.live.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 114; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Office Mobile URLs"
         },
         {
             "action": "allow",
@@ -2257,7 +2257,7 @@
             "remote-hosts": [
                 "docs.live.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 114; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Office Mobile URLs"
         },
         {
             "action": "allow",
@@ -2265,7 +2265,7 @@
             "remote-hosts": [
                 "partnerservices.getmicrosoftkey.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 114; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Office Mobile URLs"
         },
         {
             "action": "allow",
@@ -2273,7 +2273,7 @@
             "remote-hosts": [
                 "signup.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 114; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Office Mobile URLs"
         },
         {
             "action": "allow",
@@ -2281,7 +2281,7 @@
             "remote-hosts": [
                 "account.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 116; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Office for iPad URLs"
         },
         {
             "action": "allow",
@@ -2289,7 +2289,7 @@
             "remote-hosts": [
                 "auth.gfx.ms"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 116; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Office for iPad URLs"
         },
         {
             "action": "allow",
@@ -2297,7 +2297,7 @@
             "remote-hosts": [
                 "login.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 116; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Office for iPad URLs"
         },
         {
             "action": "allow",
@@ -2305,7 +2305,7 @@
             "remote-hosts": [
                 "*.yammer.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 117; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Yammer"
         },
         {
             "action": "allow",
@@ -2313,7 +2313,7 @@
             "remote-hosts": [
                 "*.yammerusercontent.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 117; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Yammer"
         },
         {
             "action": "allow",
@@ -2321,7 +2321,7 @@
             "remote-hosts": [
                 "*.assets-yammer.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 118; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Yammer CDN"
         },
         {
             "action": "allow",
@@ -2329,7 +2329,7 @@
             "remote-hosts": [
                 "www.outlook.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 121; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: False; notes: Planner: auxiliary URLs"
         },
         {
             "action": "allow",
@@ -2337,7 +2337,7 @@
             "remote-hosts": [
                 "eus-www.sway-cdn.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 122; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Sway CDNs"
         },
         {
             "action": "allow",
@@ -2345,7 +2345,7 @@
             "remote-hosts": [
                 "eus-www.sway-extensions.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 122; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Sway CDNs"
         },
         {
             "action": "allow",
@@ -2353,7 +2353,7 @@
             "remote-hosts": [
                 "wus-www.sway-cdn.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 122; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Sway CDNs"
         },
         {
             "action": "allow",
@@ -2361,7 +2361,7 @@
             "remote-hosts": [
                 "wus-www.sway-extensions.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 122; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Sway CDNs"
         },
         {
             "action": "allow",
@@ -2369,7 +2369,7 @@
             "remote-hosts": [
                 "sway.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 124; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Sway"
         },
         {
             "action": "allow",
@@ -2377,7 +2377,7 @@
             "remote-hosts": [
                 "www.sway.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 124; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Sway"
         },
         {
             "action": "allow",
@@ -2385,7 +2385,7 @@
             "remote-hosts": [
                 "*.entrust.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2393,7 +2393,7 @@
             "remote-hosts": [
                 "*.geotrust.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2401,7 +2401,7 @@
             "remote-hosts": [
                 "*.omniroot.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2409,7 +2409,7 @@
             "remote-hosts": [
                 "*.public-trust.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2417,7 +2417,7 @@
             "remote-hosts": [
                 "*.symcb.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2425,7 +2425,7 @@
             "remote-hosts": [
                 "*.symcd.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2433,7 +2433,7 @@
             "remote-hosts": [
                 "*.verisign.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2441,7 +2441,7 @@
             "remote-hosts": [
                 "*.verisign.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2449,7 +2449,7 @@
             "remote-hosts": [
                 "cacerts.digicert.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2457,7 +2457,7 @@
             "remote-hosts": [
                 "cert.int-x3.letsencrypt.org"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2465,7 +2465,7 @@
             "remote-hosts": [
                 "crl.globalsign.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2473,7 +2473,7 @@
             "remote-hosts": [
                 "crl.globalsign.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2481,7 +2481,7 @@
             "remote-hosts": [
                 "crl.identrust.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2489,7 +2489,7 @@
             "remote-hosts": [
                 "crl3.digicert.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2497,7 +2497,7 @@
             "remote-hosts": [
                 "crl4.digicert.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2505,7 +2505,7 @@
             "remote-hosts": [
                 "isrg.trustid.ocsp.identrust.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2513,7 +2513,7 @@
             "remote-hosts": [
                 "mscrl.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2521,7 +2521,7 @@
             "remote-hosts": [
                 "ocsp.digicert.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2529,7 +2529,7 @@
             "remote-hosts": [
                 "ocsp.globalsign.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2537,7 +2537,7 @@
             "remote-hosts": [
                 "ocsp.msocsp.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2545,7 +2545,7 @@
             "remote-hosts": [
                 "ocsp2.globalsign.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2553,7 +2553,7 @@
             "remote-hosts": [
                 "ocspx.digicert.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2561,7 +2561,7 @@
             "remote-hosts": [
                 "oneocsp.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2569,7 +2569,7 @@
             "remote-hosts": [
                 "secure.globalsign.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2577,7 +2577,7 @@
             "remote-hosts": [
                 "www.digicert.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2585,7 +2585,7 @@
             "remote-hosts": [
                 "www.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 125; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2593,7 +2593,7 @@
             "remote-hosts": [
                 "officespeech.platform.bing.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 126; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: Connection to the speech service is required for Office Dictation features. If connectivity is not allowed, Dictation will be disabled."
         },
         {
             "action": "allow",
@@ -2601,7 +2601,7 @@
             "remote-hosts": [
                 "*.skype.com"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 127; serviceArea: Skype; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2609,7 +2609,7 @@
             "remote-hosts": [
                 "*.office.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 147; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2617,7 +2617,7 @@
             "remote-hosts": [
                 "www.microsoft365.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 147; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2625,7 +2625,7 @@
             "remote-hosts": [
                 "*.microsoftusercontent.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 152; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: False; notes: These endpoints enable the Office Scripts functionality in Office clients available through the Automate tab and the Python in Excel functionality available through the Formulas tab. The Office Scripts feature can also be disabled through the Office 365 Admin portal. For admin controls related to Python in Excel, see [Data security and Python in Excel](https://support.microsoft.com/office/data-security-and-python-in-excel-33cc88a4-4a87-485e-9ff9-f35958278327)."
         },
         {
             "action": "allow",
@@ -2633,7 +2633,7 @@
             "remote-hosts": [
                 "*.azure-apim.net"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 153; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2641,7 +2641,7 @@
             "remote-hosts": [
                 "*.flow.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 153; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2649,7 +2649,7 @@
             "remote-hosts": [
                 "*.powerapps.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 153; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2657,7 +2657,7 @@
             "remote-hosts": [
                 "*.powerautomate.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 153; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2665,7 +2665,7 @@
             "remote-hosts": [
                 "*.activity.windows.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 156; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2673,7 +2673,7 @@
             "remote-hosts": [
                 "activity.windows.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 156; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2681,7 +2681,7 @@
             "remote-hosts": [
                 "*.cortana.ai"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 158; serviceArea: Common; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2689,7 +2689,7 @@
             "remote-hosts": [
                 "admin.microsoft.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 159; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2697,7 +2697,7 @@
             "remote-hosts": [
                 "cdn.odc.officeapps.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 160; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2705,7 +2705,7 @@
             "remote-hosts": [
                 "cdn.uci.officeapps.live.com"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 160; serviceArea: Common; tcpPorts: 80,443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2713,7 +2713,7 @@
             "remote-hosts": [
                 "compass-ssl.microsoft.com"
             ],
-            "notes": "Product: Skype"
+            "notes": "id: 180; serviceArea: Skype; tcpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2721,7 +2721,7 @@
             "remote-hosts": [
                 "*.cloud.microsoft"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 184; serviceArea: Common; tcpPorts: 443,80; udpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2729,7 +2729,7 @@
             "remote-hosts": [
                 "*.static.microsoft"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 184; serviceArea: Common; tcpPorts: 443,80; udpPorts: 443; category: Default; expressRoute: False; required: True"
         },
         {
             "action": "allow",
@@ -2737,7 +2737,7 @@
             "remote-hosts": [
                 "*.usercontent.microsoft"
             ],
-            "notes": "Product: Common"
+            "notes": "id: 184; serviceArea: Common; tcpPorts: 443,80; udpPorts: 443; category: Default; expressRoute: False; required: True"
         }
     ]
 }
