@@ -479,7 +479,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.outlook.com"
+                "outlook.com"
             ],
             "notes": "id: 8\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -495,7 +495,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.protection.outlook.com"
+                "protection.outlook.com"
             ],
             "notes": "id: 9\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -559,7 +559,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.mail.protection.outlook.com"
+                "mail.protection.outlook.com"
             ],
             "notes": "id: 10\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 25\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -567,7 +567,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.mx.microsoft"
+                "mx.microsoft"
             ],
             "notes": "id: 10\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 25\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -647,7 +647,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.lync.com"
+                "lync.com"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -655,7 +655,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.teams.cloud.microsoft"
+                "teams.cloud.microsoft"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -663,7 +663,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.teams.microsoft.com"
+                "teams.microsoft.com"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -775,7 +775,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.keydelivery.mediaservices.windows.net"
+                "keydelivery.mediaservices.windows.net"
             ],
             "notes": "id: 16\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -783,7 +783,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.streaming.mediaservices.windows.net"
+                "streaming.mediaservices.windows.net"
             ],
             "notes": "id: 16\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -799,7 +799,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.users.storage.live.com"
+                "users.storage.live.com"
             ],
             "notes": "id: 18\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Federation with Skype and public IM connectivity: Contact picture retrieval"
         },
@@ -831,7 +831,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.sharepoint.com"
+                "sharepoint.com"
             ],
             "notes": "id: 31\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
         },
@@ -935,7 +935,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.search.production.apac.trafficmanager.net"
+                "search.production.apac.trafficmanager.net"
             ],
             "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents"
         },
@@ -943,7 +943,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.search.production.emea.trafficmanager.net"
+                "search.production.emea.trafficmanager.net"
             ],
             "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents"
         },
@@ -951,7 +951,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.search.production.us.trafficmanager.net"
+                "search.production.us.trafficmanager.net"
             ],
             "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents"
         },
@@ -959,7 +959,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.wns.windows.com"
+                "wns.windows.com"
             ],
             "notes": "id: 35\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -999,7 +999,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.sharepointonline.com"
+                "sharepointonline.com"
             ],
             "notes": "id: 37\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1015,7 +1015,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.svc.ms"
+                "svc.ms"
             ],
             "notes": "id: 39\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1023,7 +1023,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.officeapps.live.com"
+                "officeapps.live.com"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -1031,7 +1031,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.online.office.com"
+                "online.office.com"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -1207,7 +1207,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.office.net"
+                "office.net"
             ],
             "notes": "id: 47\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1215,7 +1215,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.onenote.com"
+                "onenote.com"
             ],
             "notes": "id: 49\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1223,7 +1223,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.microsoft.com"
+                "microsoft.com"
             ],
             "notes": "id: 50\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: OneNote notebooks (wildcards)"
         },
@@ -1271,7 +1271,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.auth.microsoft.com"
+                "auth.microsoft.com"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -1279,7 +1279,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.msftidentity.com"
+                "msftidentity.com"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -1287,7 +1287,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.msidentity.com"
+                "msidentity.com"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -1599,7 +1599,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.hip.live.com"
+                "hip.live.com"
             ],
             "notes": "id: 59\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1607,7 +1607,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.microsoftonline-p.com"
+                "microsoftonline-p.com"
             ],
             "notes": "id: 59\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1615,7 +1615,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.microsoftonline.com"
+                "microsoftonline.com"
             ],
             "notes": "id: 59\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1623,7 +1623,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.msauth.net"
+                "msauth.net"
             ],
             "notes": "id: 59\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1631,7 +1631,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.msauthimages.net"
+                "msauthimages.net"
             ],
             "notes": "id: 59\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1639,7 +1639,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.msecnd.net"
+                "msecnd.net"
             ],
             "notes": "id: 59\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1647,7 +1647,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.msftauth.net"
+                "msftauth.net"
             ],
             "notes": "id: 59\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1655,7 +1655,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.msftauthimages.net"
+                "msftauthimages.net"
             ],
             "notes": "id: 59\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1663,7 +1663,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.phonefactor.net"
+                "phonefactor.net"
             ],
             "notes": "id: 59\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1679,7 +1679,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.protection.office.com"
+                "protection.office.com"
             ],
             "notes": "id: 64\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -1687,7 +1687,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.security.microsoft.com"
+                "security.microsoft.com"
             ],
             "notes": "id: 64\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
         },
@@ -1767,7 +1767,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.portal.cloudappsecurity.com"
+                "portal.cloudappsecurity.com"
             ],
             "notes": "id: 66\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1775,7 +1775,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.aria.microsoft.com"
+                "aria.microsoft.com"
             ],
             "notes": "id: 69\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1783,7 +1783,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.events.data.microsoft.com"
+                "events.data.microsoft.com"
             ],
             "notes": "id: 69\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1791,7 +1791,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.o365weve.com"
+                "o365weve.com"
             ],
             "notes": "id: 70\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1903,7 +1903,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.office365.com"
+                "office365.com"
             ],
             "notes": "id: 71\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443,80\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1911,7 +1911,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.aadrm.com"
+                "aadrm.com"
             ],
             "notes": "id: 73\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1919,7 +1919,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.azurerms.com"
+                "azurerms.com"
             ],
             "notes": "id: 73\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1927,7 +1927,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.informationprotection.azure.com"
+                "informationprotection.azure.com"
             ],
             "notes": "id: 73\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -1951,7 +1951,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.sharepointonline.com"
+                "sharepointonline.com"
             ],
             "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services"
         },
@@ -1991,7 +1991,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.microsoft.com"
+                "microsoft.com"
             ],
             "notes": "id: 78\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Some Office 365 features require endpoints within these domains (including CDNs). Many specific FQDNs within these wildcards have been published recently as we work to either remove or better explain our guidance relating to these wildcards."
         },
@@ -1999,7 +1999,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.msocdn.com"
+                "msocdn.com"
             ],
             "notes": "id: 78\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Some Office 365 features require endpoints within these domains (including CDNs). Many specific FQDNs within these wildcards have been published recently as we work to either remove or better explain our guidance relating to these wildcards."
         },
@@ -2007,7 +2007,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.onmicrosoft.com"
+                "onmicrosoft.com"
             ],
             "notes": "id: 78\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Some Office 365 features require endpoints within these domains (including CDNs). Many specific FQDNs within these wildcards have been published recently as we work to either remove or better explain our guidance relating to these wildcards."
         },
@@ -2127,7 +2127,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.virtualearth.net"
+                "virtualearth.net"
             ],
             "notes": "id: 93\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: ProPlus: auxiliary URLs"
         },
@@ -2167,7 +2167,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.acompli.net"
+                "acompli.net"
             ],
             "notes": "id: 95\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Outlook for Android and iOS"
         },
@@ -2175,7 +2175,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.outlookmobile.com"
+                "outlookmobile.com"
             ],
             "notes": "id: 95\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Outlook for Android and iOS"
         },
@@ -2215,7 +2215,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.appex-rf.msn.com"
+                "appex-rf.msn.com"
             ],
             "notes": "id: 114\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Office Mobile URLs"
         },
@@ -2223,7 +2223,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.appex.bing.com"
+                "appex.bing.com"
             ],
             "notes": "id: 114\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Office Mobile URLs"
         },
@@ -2303,7 +2303,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.yammer.com"
+                "yammer.com"
             ],
             "notes": "id: 117\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Yammer"
         },
@@ -2311,7 +2311,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.yammerusercontent.com"
+                "yammerusercontent.com"
             ],
             "notes": "id: 117\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Yammer"
         },
@@ -2319,7 +2319,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.assets-yammer.com"
+                "assets-yammer.com"
             ],
             "notes": "id: 118\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Yammer CDN"
         },
@@ -2383,7 +2383,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.entrust.net"
+                "entrust.net"
             ],
             "notes": "id: 125\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2391,7 +2391,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.geotrust.com"
+                "geotrust.com"
             ],
             "notes": "id: 125\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2399,7 +2399,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.omniroot.com"
+                "omniroot.com"
             ],
             "notes": "id: 125\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2407,7 +2407,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.public-trust.com"
+                "public-trust.com"
             ],
             "notes": "id: 125\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2415,7 +2415,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.symcb.com"
+                "symcb.com"
             ],
             "notes": "id: 125\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2423,7 +2423,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.symcd.com"
+                "symcd.com"
             ],
             "notes": "id: 125\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2431,7 +2431,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.verisign.com"
+                "verisign.com"
             ],
             "notes": "id: 125\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2439,7 +2439,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.verisign.net"
+                "verisign.net"
             ],
             "notes": "id: 125\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2599,7 +2599,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.skype.com"
+                "skype.com"
             ],
             "notes": "id: 127\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2607,7 +2607,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.office.com"
+                "office.com"
             ],
             "notes": "id: 147\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2623,7 +2623,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.microsoftusercontent.com"
+                "microsoftusercontent.com"
             ],
             "notes": "id: 152\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: These endpoints enable the Office Scripts functionality in Office clients available through the Automate tab and the Python in Excel functionality available through the Formulas tab. The Office Scripts feature can also be disabled through the Office 365 Admin portal. For admin controls related to Python in Excel, see [Data security and Python in Excel](https://support.microsoft.com/office/data-security-and-python-in-excel-33cc88a4-4a87-485e-9ff9-f35958278327)."
         },
@@ -2631,7 +2631,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.azure-apim.net"
+                "azure-apim.net"
             ],
             "notes": "id: 153\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2639,7 +2639,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.flow.microsoft.com"
+                "flow.microsoft.com"
             ],
             "notes": "id: 153\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2647,7 +2647,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.powerapps.com"
+                "powerapps.com"
             ],
             "notes": "id: 153\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2655,7 +2655,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.powerautomate.com"
+                "powerautomate.com"
             ],
             "notes": "id: 153\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2663,7 +2663,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.activity.windows.com"
+                "activity.windows.com"
             ],
             "notes": "id: 156\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2679,7 +2679,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.cortana.ai"
+                "cortana.ai"
             ],
             "notes": "id: 158\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2719,7 +2719,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.cloud.microsoft"
+                "cloud.microsoft"
             ],
             "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2727,7 +2727,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.static.microsoft"
+                "static.microsoft"
             ],
             "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         },
@@ -2735,7 +2735,7 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "*.usercontent.microsoft"
+                "usercontent.microsoft"
             ],
             "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True"
         }
