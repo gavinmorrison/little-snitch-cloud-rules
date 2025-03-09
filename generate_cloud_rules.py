@@ -72,15 +72,6 @@ def fetch_microsoft_endpoints(timeout: int = 10) -> Any:
     return data
 
 def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
-    """
-    Extract relevant rules for outbound client traffic from endpoint data.
-    
-    Args:
-        endpoints: The endpoint data from the API.
-        
-    Returns:
-        A list of dictionaries, each representing a rule.
-    """
     logging.info("Extracting rules from endpoint data...")
     rules = []
     
@@ -90,23 +81,28 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
         endpoints = endpoints.get("values", [])
     
     for service in endpoints:
+        # Extract a product/service identifier from the service object
+        product = service.get("serviceArea", "Microsoft Service")
+        
         # Process URLs if available
         for url in service.get("urls", []):
             rules.append({
-                "action": "allow",  # Allow traffic to Microsoft services
-                "process": "ANY",   # Any process accessing Microsoft services
-                "remote-hosts": [url]
+                "action": "allow",
+                "process": "ANY",
+                "remote-hosts": [url],
+                "note": f"Product: {product}"
             })
-            logging.info(f"Added rule for URL: {url}")
+            logging.info(f"Added rule for URL: {url} with note: Product: {product}")
         
         # Process IP addresses if available
         for ip in service.get("ips", []):
             rules.append({
                 "action": "allow",
                 "process": "ANY",
-                "remote-hosts": [ip]
+                "remote-hosts": [ip],
+                "note": f"Product: {product}"
             })
-            logging.info(f"Added rule for IP: {ip}")
+            logging.info(f"Added rule for IP: {ip} with note: Product: {product}")
 
     logging.info("Rules extraction complete.")
     return rules
