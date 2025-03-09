@@ -144,7 +144,7 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
             rules.append({
                 "action": "allow",
                 "process": "ANY",
-                "remote-hosts": [ip],
+                "remote-addresses": [ip],
                 "notes": notes
             })
             logging.info(f"Added rule for IP: {ip} with notes: {notes}")
