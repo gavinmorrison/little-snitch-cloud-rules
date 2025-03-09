@@ -2,8 +2,8 @@ name: Generate Little Snitch Cloud Rules
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs at midnight UTC every night
-  workflow_dispatch:  # Allows manual triggering of the workflow
+    - cron: "0 0 * * *" # Runs at midnight UTC every night
+  workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
   generate-rules:
@@ -15,7 +15,7 @@ jobs:
       - name: Set Up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: "3.9"
 
       - name: Install Dependencies
         run: pip install -r requirements.txt
@@ -24,9 +24,11 @@ jobs:
         run: python generate_cloud_rules.py
 
       - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add rules/
           git commit -m "Automated update of Little Snitch rules [$(date)]" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git main
