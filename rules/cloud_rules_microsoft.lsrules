@@ -8,2394 +8,2736 @@
             "process": "ANY",
             "remote-hosts": [
                 "outlook.cloud.microsoft"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "outlook.office.com"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "outlook.office365.com"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "13.107.6.152/31"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "13.107.18.10/31"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "13.107.128.0/22"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "23.103.160.0/20"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "40.96.0.0/13"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "40.104.0.0/15"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.96.0.0/14"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "131.253.33.215/32"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "132.245.0.0/16"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "150.171.32.0/22"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "204.79.197.215/32"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1006::/40"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1016::/36"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1026::/36"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1036::/36"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1046::/36"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1056::/36"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:4::152/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:4::153/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:c::10/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:c::11/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:d::10/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:d::11/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:8f0::/46"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:900::/46"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:a92::152/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:a92::153/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "outlook.office365.com"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "smtp.office365.com"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "13.107.6.152/31"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "13.107.18.10/31"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "13.107.128.0/22"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "23.103.160.0/20"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "40.96.0.0/13"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "40.104.0.0/15"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.96.0.0/14"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "131.253.33.215/32"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "132.245.0.0/16"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "150.171.32.0/22"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "204.79.197.215/32"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1006::/40"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1016::/36"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1026::/36"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1036::/36"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1046::/36"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1056::/36"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:4::152/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:4::153/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:c::10/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:c::11/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:d::10/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:d::11/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:8f0::/46"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:900::/46"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:a92::152/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:a92::153/128"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.outlook.com"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "autodiscover.*.onmicrosoft.com"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.protection.outlook.com"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "40.92.0.0/15"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "40.107.0.0/16"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.100.0.0/14"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.238.78.88/32"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "104.47.0.0/17"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2a01:111:f400::/48"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2a01:111:f403::/48"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.mail.protection.outlook.com"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.mx.microsoft"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "40.92.0.0/15"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "40.107.0.0/16"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.100.0.0/14"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "104.47.0.0/17"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2a01:111:f400::/48"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2a01:111:f403::/48"
-            ]
+            ],
+            "note": "Product: Exchange"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.112.0.0/14"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.122.0.0/15"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1063::/38"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.lync.com"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.teams.cloud.microsoft"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.teams.microsoft.com"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "teams.cloud.microsoft"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "teams.microsoft.com"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.112.0.0/14"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.122.0.0/15"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.238.119.141/32"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.244.160.207/32"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1027::/48"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1037::/48"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1047::/48"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1057::/48"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1063::/38"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:6::/48"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:40::/42"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.keydelivery.mediaservices.windows.net"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.streaming.mediaservices.windows.net"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "aka.ms"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.users.storage.live.com"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "adl.windows.com"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "join.secure.skypeassets.com"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "mlccdnprod.azureedge.net"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.sharepoint.com"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "13.107.136.0/22"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "40.108.128.0/17"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.104.0.0/14"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "104.146.128.0/17"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "150.171.40.0/22"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1061:1300::/40"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1063:6000::/35"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:8f8::/46"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:908::/46"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2a01:111:f402::/48"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "ssw.live.com"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "storage.live.com"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.search.production.apac.trafficmanager.net"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.search.production.emea.trafficmanager.net"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.search.production.us.trafficmanager.net"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.wns.windows.com"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "admin.onedrive.com"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "officeclient.microsoft.com"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "g.live.com"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "oneclient.sfx.ms"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.sharepointonline.com"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "spoprod-a.akamaihd.net"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.svc.ms"
-            ]
+            ],
+            "note": "Product: SharePoint"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.officeapps.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.online.office.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "office.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "13.107.6.171/32"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "13.107.18.15/32"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "13.107.140.6/32"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.108.0.0/14"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "52.244.37.168/32"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1006:1400::/40"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1016:2400::/40"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1026:2400::/40"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1036:2400::/40"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1046:1400::/40"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1056:1400::/40"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1063:2000::/38"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:c::15/128"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:8fc::6/128"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:a92::171/128"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2a01:111:f100:2000::a83e:3019/128"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2a01:111:f100:2002::8975:2d79/128"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2a01:111:f100:2002::8975:2da8/128"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2a01:111:f100:7000::6fdd:6cd5/128"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2a01:111:f100:a004::bfeb:88cf/128"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.office.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.onenote.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*cdn.onenote.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "ajax.aspnetcdn.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "apis.live.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "officeapps.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "www.onedrive.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.auth.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.msftidentity.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.msidentity.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "account.activedirectory.windowsazure.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "accounts.accesscontrol.windows.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "adminwebservice.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "api.passwordreset.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "autologon.microsoftazuread-sso.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "becws.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "ccs.login.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "clientconfig.microsoftonline-p.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "companymanager.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "device.login.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "graph.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "graph.windows.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "login-us.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "login.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "login.microsoftonline-p.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "login.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "login.windows.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "logincert.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "loginex.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "nexus.microsoftonline-p.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "passwordreset.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "provisioningapi.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "20.20.32.0/19"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "20.190.128.0/18"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "20.231.128.0/19"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "40.126.0.0/18"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1006:2000::/48"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1007:200::/48"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1016:1400::/48"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1017::/48"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1026:3000::/48"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1027:1::/48"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1036:3000::/48"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1037:1::/48"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1046:2000::/48"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1047:1::/48"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1056:2000::/48"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2603:1057:2::/48"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.hip.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.microsoftonline-p.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.microsoftonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.msauth.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.msauthimages.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.msecnd.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.msftauth.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.msftauthimages.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.phonefactor.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "enterpriseregistration.windows.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.protection.office.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.security.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "compliance.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "defender.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "protection.office.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "purview.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "security.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "13.107.6.192/32"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "13.107.9.192/32"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:4::192/128"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "2620:1ec:a92::192/128"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.portal.cloudappsecurity.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.aria.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.events.data.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.o365weve.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "amp.azure.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "appsforoffice.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "assets.onestore.ms"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "auth.gfx.ms"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "c1.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "dgps.support.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "docs.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "msdn.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "platform.linkedin.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "prod.msocdn.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "shellprod.msocdn.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "support.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "technet.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.office365.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.aadrm.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.azurerms.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.informationprotection.azure.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "ecn.dev.virtualearth.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "informationprotection.hosting.portal.azure.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.sharepointonline.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "dc.services.visualstudio.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "mem.gfx.ms"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "staffhub.ms"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "staffhubweb.azureedge.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.msocdn.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.onmicrosoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "o15.officeredir.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "officepreviewredir.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "officeredir.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "r.office.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "activation.sls.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "crl.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "office15client.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "officeclient.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "go.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "ajax.aspnetcdn.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "cdn.odc.officeapps.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "officecdn.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "officecdn.microsoft.com.edgesuite.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "otelrules.azureedge.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.virtualearth.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "c.bing.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "ocos-office365-s2s.msedge.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "tse1.mm.bing.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "www.bing.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.acompli.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.outlookmobile.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "login.windows-ppe.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "account.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "login.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "www.acompli.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.appex-rf.msn.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.appex.bing.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "c.bing.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "c.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "d.docs.live.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "docs.live.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "partnerservices.getmicrosoftkey.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "signup.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "account.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "auth.gfx.ms"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "login.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.yammer.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.yammerusercontent.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.assets-yammer.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "www.outlook.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "eus-www.sway-cdn.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "eus-www.sway-extensions.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "wus-www.sway-cdn.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "wus-www.sway-extensions.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "sway.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "www.sway.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.entrust.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.geotrust.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.omniroot.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.public-trust.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.symcb.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.symcd.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.verisign.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.verisign.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "cacerts.digicert.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "cert.int-x3.letsencrypt.org"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "crl.globalsign.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "crl.globalsign.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "crl.identrust.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "crl3.digicert.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "crl4.digicert.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "isrg.trustid.ocsp.identrust.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "mscrl.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "ocsp.digicert.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "ocsp.globalsign.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "ocsp.msocsp.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "ocsp2.globalsign.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "ocspx.digicert.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "oneocsp.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "secure.globalsign.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "www.digicert.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "www.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "officespeech.platform.bing.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.skype.com"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.office.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "www.microsoft365.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.microsoftusercontent.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.azure-apim.net"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.flow.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.powerapps.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.powerautomate.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.activity.windows.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "activity.windows.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.cortana.ai"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "admin.microsoft.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "cdn.odc.officeapps.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "cdn.uci.officeapps.live.com"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "compass-ssl.microsoft.com"
-            ]
+            ],
+            "note": "Product: Skype"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.cloud.microsoft"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.static.microsoft"
-            ]
+            ],
+            "note": "Product: Common"
         },
         {
             "action": "allow",
             "process": "ANY",
             "remote-hosts": [
                 "*.usercontent.microsoft"
-            ]
+            ],
+            "note": "Product: Common"
         }
     ]
 }
