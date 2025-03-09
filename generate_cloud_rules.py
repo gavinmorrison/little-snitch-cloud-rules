@@ -26,11 +26,11 @@ from typing import Any, Dict, List
 # Configure logging for better observability in production
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
-# Microsoft API endpoint base URL
-BASE_MS_API_URL = "https://endpoints.office.com/endpoints/worldwide"
+# Output directory for rule files
+OUTPUT_DIR = "rules"
 
-# Output file name for the Little Snitch rule file
-OUTPUT_FILE = "microsoft_cloud_rules.ov"
+# Ensure the output directory exists
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def fetch_microsoft_endpoints(timeout: int = 10) -> Any:
     """
@@ -46,6 +46,9 @@ def fetch_microsoft_endpoints(timeout: int = 10) -> Any:
         requests.exceptions.RequestException: If the HTTP request fails.
         ValueError: If the response cannot be parsed as JSON.
     """
+    # Microsoft API endpoint base URL
+    BASE_MS_API_URL = "https://endpoints.office.com/endpoints/worldwide"
+
     client_request_id = uuid.uuid4()  # Generate a unique ID for each request
     api_url = f"{BASE_MS_API_URL}?clientrequestid={client_request_id}"
     logging.info("Sending request to Microsoft API...")
@@ -106,40 +109,45 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
     logging.info("Rules extraction complete.")
     return rules
 
-def generate_ov_file(rules: List[Dict[str, Any]], output_file: str = OUTPUT_FILE) -> None:
+# Microsoft is the only provider supported at the moment
+def generate_ov_file(rules: List[Dict[str, Any]], provider: str = "microsoft") -> None:
     """
-    Generate the Little Snitch .ov rule file.
+    Generate the Little Snitch .ov rule file and save it in the rules/ directory.
     
     Args:
         rules: A list of rules to be written into the file.
-        output_file: The output filename.
+        provider: The cloud provider name (used for naming the file).
     
     Raises:
         IOError: If writing to the file fails.
     """
-    logging.info("Generating .ov rule file...")
-    now = datetime.datetime.now()
+    logging.info(f"Generating .ov rule file for {provider}...")
+
+    # Define a static filename for easy subscription
+    filename = f"cloud_rules_{provider}.ov"
+    file_path = os.path.join(OUTPUT_DIR, filename)
+
     subscription = {
-        "name": "Microsoft Cloud Access",
-        "description": f"Allows outbound traffic to Microsoft Cloud services. Last updated: {now.strftime('%Y-%m-%d %H:%M:%S')}",
+        "name": f"{provider.capitalize()} Cloud Access",
+        "description": f"Allows outbound traffic to {provider.capitalize()} Cloud services.",
         "author": "Automated Script",
         "rules": rules
     }
+
     try:
-        with open(output_file, "w") as file:
+        with open(file_path, "w") as file:
             json.dump(subscription, file, indent=4)
     except IOError as e:
-        logging.error("Failed to write the rule file.")
+        logging.error(f"Failed to write the rule file for {provider}.")
         raise e
 
-    file_path = os.path.join(os.getcwd(), output_file)
     logging.info(f"Little Snitch rule file generated: {file_path}")
 
 def main() -> None:
     try:
         endpoints = fetch_microsoft_endpoints()
         rules = extract_rules(endpoints)
-        generate_ov_file(rules)
+        generate_ov_file(rules, provider="microsoft")
         logging.info("Done! You can now subscribe to the generated .ov file in Little Snitch.")
     except Exception as e:
         logging.error(f"An error occurred: {e}")
