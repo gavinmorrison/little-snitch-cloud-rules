@@ -1,6 +1,9 @@
 name: Generate Little Snitch Cloud Rules
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 0 * * *" # Runs at midnight UTC every night
   workflow_dispatch: # Allows manual triggering of the workflow
