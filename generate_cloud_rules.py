@@ -134,16 +134,18 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
             # Decide which key to use: remote-hosts or remote-domains
             if url.startswith("*."):
                 key = "remote-domains"
+                value = [url[2:]]  # Remove the "*." prefix
             else:
                 key = "remote-hosts"
+                value = [url]
 
             rules.append({
                 "action": "allow",
                 "process": "ANY",
-                key: [url],
+                key: value,
                 "notes": notes
             })
-            logging.info(f"Added rule for URL: {url} of type: {key} with notes: {notes}")
+            logging.info(f"Added rule for: {value} of type: {key}with notes:\n{notes}")
         
         # Process IP addresses if available
         for ip in service.get("ips", []):
