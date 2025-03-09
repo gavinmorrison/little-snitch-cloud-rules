@@ -30,7 +30,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "13.107.6.152/31"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -38,7 +38,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "13.107.18.10/31"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -46,7 +46,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "13.107.128.0/22"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -54,7 +54,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "23.103.160.0/20"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -62,7 +62,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "40.96.0.0/13"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -70,7 +70,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "40.104.0.0/15"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -78,7 +78,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.96.0.0/14"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -86,7 +86,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "131.253.33.215/32"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -94,7 +94,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "132.245.0.0/16"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -102,7 +102,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "150.171.32.0/22"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -110,7 +110,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "204.79.197.215/32"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -118,7 +118,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1006::/40"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -126,7 +126,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1016::/36"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -134,7 +134,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1026::/36"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -142,7 +142,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1036::/36"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -150,7 +150,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1046::/36"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -158,7 +158,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1056::/36"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -166,7 +166,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:4::152/128"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -174,7 +174,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:4::153/128"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -182,7 +182,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:c::10/128"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -190,7 +190,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:c::11/128"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -198,7 +198,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:d::10/128"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -206,7 +206,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:d::11/128"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -214,7 +214,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:8f0::/46"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -222,7 +222,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:900::/46"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -230,7 +230,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:a92::152/128"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -238,7 +238,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:a92::153/128"
             ],
             "notes": "id: 1\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -262,7 +262,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "13.107.6.152/31"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -270,7 +270,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "13.107.18.10/31"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -278,7 +278,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "13.107.128.0/22"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -286,7 +286,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "23.103.160.0/20"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -294,7 +294,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "40.96.0.0/13"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -302,7 +302,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "40.104.0.0/15"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -310,7 +310,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.96.0.0/14"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -318,7 +318,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "131.253.33.215/32"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -326,7 +326,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "132.245.0.0/16"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -334,7 +334,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "150.171.32.0/22"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -342,7 +342,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "204.79.197.215/32"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -350,7 +350,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1006::/40"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -358,7 +358,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1016::/36"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -366,7 +366,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1026::/36"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -374,7 +374,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1036::/36"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -382,7 +382,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1046::/36"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -390,7 +390,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1056::/36"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -398,7 +398,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:4::152/128"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -406,7 +406,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:4::153/128"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -414,7 +414,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:c::10/128"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -422,7 +422,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:c::11/128"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -430,7 +430,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:d::10/128"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -438,7 +438,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:d::11/128"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -446,7 +446,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:8f0::/46"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -454,7 +454,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:900::/46"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -462,7 +462,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:a92::152/128"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -470,7 +470,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:a92::153/128"
             ],
             "notes": "id: 2\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 143, 587, 993, 995\ncategory: Allow\nexpressRoute: True\nrequired: False\nnotes: POP3, IMAP4, SMTP Client traffic"
@@ -502,7 +502,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "40.92.0.0/15"
             ],
             "notes": "id: 9\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -510,7 +510,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "40.107.0.0/16"
             ],
             "notes": "id: 9\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -518,7 +518,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.100.0.0/14"
             ],
             "notes": "id: 9\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -526,7 +526,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.238.78.88/32"
             ],
             "notes": "id: 9\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -534,7 +534,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "104.47.0.0/17"
             ],
             "notes": "id: 9\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -542,7 +542,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2a01:111:f400::/48"
             ],
             "notes": "id: 9\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -550,7 +550,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2a01:111:f403::/48"
             ],
             "notes": "id: 9\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -574,7 +574,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "40.92.0.0/15"
             ],
             "notes": "id: 10\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 25\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -582,7 +582,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "40.107.0.0/16"
             ],
             "notes": "id: 10\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 25\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -590,7 +590,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.100.0.0/14"
             ],
             "notes": "id: 10\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 25\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -598,7 +598,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "104.47.0.0/17"
             ],
             "notes": "id: 10\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 25\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -606,7 +606,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2a01:111:f400::/48"
             ],
             "notes": "id: 10\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 25\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -614,7 +614,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2a01:111:f403::/48"
             ],
             "notes": "id: 10\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 25\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -622,7 +622,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.112.0.0/14"
             ],
             "notes": "id: 11\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nudpPorts: 3478,3479,3480,3481\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -630,7 +630,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.122.0.0/15"
             ],
             "notes": "id: 11\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nudpPorts: 3478,3479,3480,3481\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -638,7 +638,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1063::/38"
             ],
             "notes": "id: 11\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nudpPorts: 3478,3479,3480,3481\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -686,7 +686,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.112.0.0/14"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -694,7 +694,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.122.0.0/15"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -702,7 +702,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.238.119.141/32"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -710,7 +710,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.244.160.207/32"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -718,7 +718,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1027::/48"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -726,7 +726,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1037::/48"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -734,7 +734,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1047::/48"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -742,7 +742,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1057::/48"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -750,7 +750,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1063::/38"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -758,7 +758,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:6::/48"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -766,7 +766,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:40::/42"
             ],
             "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -838,7 +838,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "13.107.136.0/22"
             ],
             "notes": "id: 31\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -846,7 +846,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "40.108.128.0/17"
             ],
             "notes": "id: 31\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -854,7 +854,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.104.0.0/14"
             ],
             "notes": "id: 31\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -862,7 +862,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "104.146.128.0/17"
             ],
             "notes": "id: 31\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -870,7 +870,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "150.171.40.0/22"
             ],
             "notes": "id: 31\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -878,7 +878,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1061:1300::/40"
             ],
             "notes": "id: 31\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -886,7 +886,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1063:6000::/35"
             ],
             "notes": "id: 31\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -894,7 +894,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:8f8::/46"
             ],
             "notes": "id: 31\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -902,7 +902,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:908::/46"
             ],
             "notes": "id: 31\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -910,7 +910,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2a01:111:f402::/48"
             ],
             "notes": "id: 31\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Optimize\nexpressRoute: True\nrequired: True"
@@ -1046,7 +1046,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "13.107.6.171/32"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1054,7 +1054,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "13.107.18.15/32"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1062,7 +1062,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "13.107.140.6/32"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1070,7 +1070,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.108.0.0/14"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1078,7 +1078,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "52.244.37.168/32"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1086,7 +1086,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1006:1400::/40"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1094,7 +1094,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1016:2400::/40"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1102,7 +1102,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1026:2400::/40"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1110,7 +1110,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1036:2400::/40"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1118,7 +1118,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1046:1400::/40"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1126,7 +1126,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1056:1400::/40"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1134,7 +1134,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1063:2000::/38"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1142,7 +1142,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:c::15/128"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1150,7 +1150,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:8fc::6/128"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1158,7 +1158,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:a92::171/128"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1166,7 +1166,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2a01:111:f100:2000::a83e:3019/128"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1174,7 +1174,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2a01:111:f100:2002::8975:2d79/128"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1182,7 +1182,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2a01:111:f100:2002::8975:2da8/128"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1190,7 +1190,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2a01:111:f100:7000::6fdd:6cd5/128"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1198,7 +1198,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2a01:111:f100:a004::bfeb:88cf/128"
             ],
             "notes": "id: 46\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1470,7 +1470,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "20.20.32.0/19"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1478,7 +1478,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "20.190.128.0/18"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1486,7 +1486,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "20.231.128.0/19"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1494,7 +1494,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "40.126.0.0/18"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1502,7 +1502,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1006:2000::/48"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1510,7 +1510,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1007:200::/48"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1518,7 +1518,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1016:1400::/48"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1526,7 +1526,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1017::/48"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1534,7 +1534,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1026:3000::/48"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1542,7 +1542,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1027:1::/48"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1550,7 +1550,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1036:3000::/48"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1558,7 +1558,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1037:1::/48"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1566,7 +1566,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1046:2000::/48"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1574,7 +1574,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1047:1::/48"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1582,7 +1582,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1056:2000::/48"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1590,7 +1590,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2603:1057:2::/48"
             ],
             "notes": "id: 56\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1734,7 +1734,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "13.107.6.192/32"
             ],
             "notes": "id: 64\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1742,7 +1742,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "13.107.9.192/32"
             ],
             "notes": "id: 64\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1750,7 +1750,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:4::192/128"
             ],
             "notes": "id: 64\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
@@ -1758,7 +1758,7 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
+            "remote-addresses": [
                 "2620:1ec:a92::192/128"
             ],
             "notes": "id: 64\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True"
