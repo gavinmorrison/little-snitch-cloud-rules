@@ -21,7 +21,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Rule Generator
-        run: python cloud_rules_generator.py
+        run: python generate_cloud_rules.py
 
       - name: Commit and Push Changes
         run: |
