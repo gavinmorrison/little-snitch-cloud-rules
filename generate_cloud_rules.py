@@ -104,7 +104,7 @@ def build_notes(service: Dict[str, Any]) -> str:
     if "notes" in service and service["notes"]:
         notes_parts.append(f"notes: {service['notes']}")
     
-    return "; ".join(notes_parts)
+    return "\n".join(notes_parts)
 
 def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
     """
