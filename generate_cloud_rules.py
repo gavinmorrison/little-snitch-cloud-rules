@@ -28,6 +28,9 @@ from typing import Any, Dict, List
 # Configure logging for better observability in production
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
+# EXPERIMENTAL: Set this variable to true for port-specific rules
+ADD_PORT_RULES = True
+
 # Output directory for rule files
 OUTPUT_DIR = "rules"
 
@@ -129,7 +132,7 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
         # Build the notes from all available metadata excluding hosts/IPs
         notes = build_notes(service)
         
-        # Process URLs if available
+        # Process URL entries
         for url in service.get("urls", []):
             # Decide which key to use: remote-hosts or remote-domains
             if url.startswith("*."):
@@ -139,23 +142,87 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
                 key = "remote-hosts"
                 value = [url]
 
-            rules.append({
-                "action": "allow",
-                "process": "ANY",
-                key: value,
-                "notes": notes
-            })
-            logging.info(f"Added rule for: {value} of type: {key}with notes:\n{notes}")
-        
-        # Process IP addresses if available
+            if ADD_PORT_RULES:
+                # If TCP port info is available, create a rule for TCP.
+                if service.get("tcpPorts"):
+                    rule = {
+                        "action": "allow",
+                        "process": "ANY",
+                        key: value,
+                        "notes": notes,
+                        "ports": service["tcpPorts"].strip(),  # Comma-separated ports (e.g. "80,443")
+                        "protocol": "tcp"  # or "6" if you prefer the numeric protocol
+                    }
+                    rules.append(rule)
+                # If UDP port info is available, create a rule for UDP.
+                if service.get("udpPorts"):
+                    rule = {
+                        "action": "allow",
+                        "process": "ANY",
+                        key: value,
+                        "notes": notes,
+                        "ports": service["udpPorts"].strip(),
+                        "protocol": "udp"
+                    }
+                    rules.append(rule)
+                # If neither TCP nor UDP ports are provided, add a default rule.
+                if not service.get("tcpPorts") and not service.get("udpPorts"):
+                    rule = {
+                        "action": "allow",
+                        "process": "ANY",
+                        key: value,
+                        "notes": notes
+                    }
+                    rules.append(rule)
+            else:
+                # Without port-specific rules, add one rule ignoring port info.
+                rule = {
+                    "action": "allow",
+                    "process": "ANY",
+                    key: value,
+                    "notes": notes
+                }
+                rules.append(rule)
+
+        # Process IP entries in a similar way
         for ip in service.get("ips", []):
-            rules.append({
-                "action": "allow",
-                "process": "ANY",
-                "remote-addresses": [ip],
-                "notes": notes
-            })
-            logging.info(f"Added rule for IP: {ip} with notes: {notes}")
+            if ADD_PORT_RULES:
+                if service.get("tcpPorts"):
+                    rule = {
+                        "action": "allow",
+                        "process": "ANY",
+                        "remote-addresses": [ip],
+                        "notes": notes,
+                        "ports": service["tcpPorts"].strip(),
+                        "protocol": "tcp"
+                    }
+                    rules.append(rule)
+                if service.get("udpPorts"):
+                    rule = {
+                        "action": "allow",
+                        "process": "ANY",
+                        "remote-addresses": [ip],
+                        "notes": notes,
+                        "ports": service["udpPorts"].strip(),
+                        "protocol": "udp"
+                    }
+                    rules.append(rule)
+                if not service.get("tcpPorts") and not service.get("udpPorts"):
+                    rule = {
+                        "action": "allow",
+                        "process": "ANY",
+                        "remote-addresses": [ip],
+                        "notes": notes
+                    }
+                    rules.append(rule)
+            else:
+                rule = {
+                    "action": "allow",
+                    "process": "ANY",
+                    "remote-addresses": [ip],
+                    "notes": notes
+                }
+                rules.append(rule)
 
     logging.info("Rules extraction complete.")
     return rules
