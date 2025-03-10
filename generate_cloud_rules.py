@@ -123,8 +123,18 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
         notes = build_notes(service)
 
         for url in service.get("urls", []):
-            key = "remote-domains" if url.startswith("*.") else "remote-hosts"
-            value = [url[2:]] if url.startswith("*.") else [url]
+            if "*" in url:
+                # Valid wildcard: must start with "*." and only contain one "*" character.
+                if url.startswith("*.") and url.count("*") == 1:
+                    key = "remote-domains"
+                    value = [url[2:]]  # Remove the "*." part.
+                else:
+                    # 🚨 Warning: Non-standard wildcard found, so we skip this rule.
+                    logging.warning(f"🚨 Non-standard wildcard domain encountered: {url}. This rule will be skipped.")
+                    continue
+            else:
+                key = "remote-hosts"
+                value = [url]
 
             if ADD_PORT_RULES:
                 if service.get("tcpPorts"):
