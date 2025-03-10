@@ -906,16 +906,6 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
-                "autodiscover.*.onmicrosoft.com"
-            ],
-            "notes": "id: 8\nserviceArea: Exchange\nserviceAreaDisplayName: Exchange Online\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True",
-            "protocol": "tcp",
-            "ports": "80,443"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
             "remote-domains": [
                 "protection.outlook.com"
             ],
@@ -1950,16 +1940,6 @@
                 "microsoft.com"
             ],
             "notes": "id: 50\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: OneNote notebooks (wildcards)",
-            "protocol": "tcp",
-            "ports": "443"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
-            "remote-hosts": [
-                "*cdn.onenote.net"
-            ],
-            "notes": "id: 51\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "tcp",
             "ports": "443"
         },
