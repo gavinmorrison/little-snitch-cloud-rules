@@ -83,6 +83,8 @@ def build_notes(service: Dict[str, Any]) -> str:
         f"id: {service['id']}" if "id" in service else None,
         f"serviceArea: {service['serviceArea']}" if "serviceArea" in service else None,
         f"serviceAreaDisplayName: {service['serviceAreaDisplayName']}" if "serviceAreaDisplayName" in service else None,
+        f"urls: {service['urls']}" if "urls" in service and service["urls"] else None,
+        f"ips: {service['ips']}" if "ips" in service and service["ips"] else None,
         f"tcpPorts: {service['tcpPorts']}" if "tcpPorts" in service and service["tcpPorts"] else None,
         f"udpPorts: {service['udpPorts']}" if "udpPorts" in service and service["udpPorts"] else None,
         f"category: {service['category']}" if "category" in service else None,
