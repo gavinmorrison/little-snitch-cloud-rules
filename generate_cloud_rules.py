@@ -125,22 +125,27 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
         for url in service.get("urls", []):
             key = "remote-domains" if url.startswith("*.") else "remote-hosts"
             value = [url[2:]] if url.startswith("*.") else [url]
-            rules.append(create_rule(service, key, value, notes))
 
             if ADD_PORT_RULES:
                 if service.get("tcpPorts"):
                     rules.append(create_rule(service, key, value, notes, protocol="tcp", ports=service["tcpPorts"]))
                 if service.get("udpPorts"):
                     rules.append(create_rule(service, key, value, notes, protocol="udp", ports=service["udpPorts"]))
+                if not service.get("tcpPorts") and not service.get("udpPorts"):
+                    rules.append(create_rule(service, key, value, notes))
+            else:
+                rules.append(create_rule(service, key, value, notes))
 
         for ip in service.get("ips", []):
-            rules.append(create_rule(service, "remote-addresses", [ip], notes))
-
             if ADD_PORT_RULES:
                 if service.get("tcpPorts"):
                     rules.append(create_rule(service, "remote-addresses", [ip], notes, protocol="tcp", ports=service["tcpPorts"]))
                 if service.get("udpPorts"):
                     rules.append(create_rule(service, "remote-addresses", [ip], notes, protocol="udp", ports=service["udpPorts"]))
+                if not service.get("tcpPorts") and not service.get("udpPorts"):
+                    rules.append(create_rule(service, "remote-addresses", [ip], notes))
+            else:
+                rules.append(create_rule(service, "remote-addresses", [ip], notes))
 
     logging.info("Rules extraction complete.")
     return rules
