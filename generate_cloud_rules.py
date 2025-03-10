@@ -35,6 +35,12 @@ BASE_MS_API_URL = "https://endpoints.office.com/endpoints/worldwide"
 # Ensure the output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+# 🧪 Experimental feature to handle non-standard wildcard domains
+# Format: {"original-domain": "normalised-domain"}
+URL_OVERRIDES = {
+    "*cdn.onenote.net": "*.onenote.net"
+}
+
 def fetch_microsoft_endpoints(timeout: int = 10) -> Dict[str, Any]:
     """
     Fetch the latest Microsoft endpoint data from the API with a unique client request id.
@@ -123,6 +129,9 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
         notes = build_notes(service)
 
         for url in service.get("urls", []):
+            # Apply URL overrides, if any
+            url = URL_OVERRIDES.get(url, url)
+            
             if "*" in url:
                 # Valid wildcard: must start with "*." and only contain one "*" character.
                 if url.startswith("*.") and url.count("*") == 1:
