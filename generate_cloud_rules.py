@@ -2,7 +2,7 @@
 """
 Little Snitch Cloud Rules Generator
 -----------------------------------
-This script fetches cloud service provider endpoint data and generates 
+This script fetches cloud service provider endpoint data and generates
 a .lsrules rule file formatted for Little Snitch on macOS.
 
 https://help.obdev.at/littlesnitch4/lsc-rule-group-subscriptions
@@ -21,50 +21,45 @@ import json
 import requests
 import uuid
 import os
-import datetime
 import logging
 from typing import Any, Dict, List
 
 # Configure logging for better observability in production
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
-# EXPERIMENTAL: Set this variable to true for port-specific rules
+# Configuration settings
 ADD_PORT_RULES = True
-
-# Output directory for rule files
 OUTPUT_DIR = "rules"
+BASE_MS_API_URL = "https://endpoints.office.com/endpoints/worldwide"
 
 # Ensure the output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-def fetch_microsoft_endpoints(timeout: int = 10) -> Any:
+def fetch_microsoft_endpoints(timeout: int = 10) -> Dict[str, Any]:
     """
     Fetch the latest Microsoft endpoint data from the API with a unique client request id.
-    
+
     Args:
         timeout (int): Timeout in seconds for the API request.
-        
+
     Returns:
         The JSON data returned by the API.
-    
+
     Raises:
         requests.exceptions.RequestException: If the HTTP request fails.
         ValueError: If the response cannot be parsed as JSON.
     """
-    # Microsoft API endpoint base URL
-    BASE_MS_API_URL = "https://endpoints.office.com/endpoints/worldwide"
-
     client_request_id = uuid.uuid4()  # Generate a unique ID for each request
     api_url = f"{BASE_MS_API_URL}?clientrequestid={client_request_id}"
     logging.info("Sending request to Microsoft API...")
-    
+
     try:
         response = requests.get(api_url, timeout=timeout)
         response.raise_for_status()  # Raises HTTPError for bad responses
     except requests.exceptions.RequestException as e:
         logging.error("Request to Microsoft API failed.")
         raise e
-    
+
     try:
         data = response.json()
     except ValueError as e:
@@ -78,170 +73,91 @@ def build_notes(service: Dict[str, Any]) -> str:
     """
     Build a notes string from the service metadata, excluding hosts and IPs.
     """
-    notes_parts = []
-    # Include the immutable id
-    if "id" in service:
-        notes_parts.append(f"id: {service['id']}")
-    # Service area, e.g., Common, Exchange, SharePoint, or Skype
-    if "serviceArea" in service:
-        notes_parts.append(f"serviceArea: {service['serviceArea']}")
-    # Service area Display Name, e.g., Exchange Online, SharePoint Online, or Skype for Business Online
-    if "serviceAreaDisplayName" in service:
-        notes_parts.append(f"serviceAreaDisplayName: {service['serviceAreaDisplayName']}")    
-    # TCP ports information, if provided
-    if "tcpPorts" in service and service["tcpPorts"]:
-        notes_parts.append(f"tcpPorts: {service['tcpPorts']}")
-    # UDP ports information, if provided
-    if "udpPorts" in service and service["udpPorts"]:
-        notes_parts.append(f"udpPorts: {service['udpPorts']}")
-    # Connectivity category: Optimize, Allow, or Default
-    if "category" in service:
-        notes_parts.append(f"category: {service['category']}")
-    # Whether the endpoint is routed over ExpressRoute
-    if "expressRoute" in service:
-        notes_parts.append(f"expressRoute: {service['expressRoute']}")
-    # Whether the endpoint is required for Microsoft 365 support
-    if "required" in service:
-        notes_parts.append(f"required: {service['required']}")
-    # Additional notes from the API, if any
-    if "notes" in service and service["notes"]:
-        notes_parts.append(f"notes: {service['notes']}")
-    
-    return "\n".join(notes_parts)
+    notes_parts = [
+        f"id: {service['id']}" if "id" in service else None,
+        f"serviceArea: {service['serviceArea']}" if "serviceArea" in service else None,
+        f"serviceAreaDisplayName: {service['serviceAreaDisplayName']}" if "serviceAreaDisplayName" in service else None,
+        f"tcpPorts: {service['tcpPorts']}" if "tcpPorts" in service and service["tcpPorts"] else None,
+        f"udpPorts: {service['udpPorts']}" if "udpPorts" in service and service["udpPorts"] else None,
+        f"category: {service['category']}" if "category" in service else None,
+        f"expressRoute: {service['expressRoute']}" if "expressRoute" in service else None,
+        f"required: {service['required']}" if "required" in service else None,
+        f"notes: {service['notes']}" if "notes" in service and service["notes"] else None,
+    ]
+
+    return "\n".join(filter(None, notes_parts))
+
+def create_rule(service, key, value, notes, protocol=None, ports=None):
+    """
+    Create a rule dictionary with optional protocol and ports.
+    """
+    rule = {
+        "action": "allow",
+        "process": "ANY",
+        key: value,
+        "notes": notes
+    }
+    if protocol and ports:
+        rule.update({"protocol": protocol, "ports": ports.strip()})
+    return rule
 
 def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
     """
     Extract relevant rules for outbound client traffic from endpoint data,
     appending detailed metadata in the "notes" field.
-    
+
     Args:
         endpoints: The endpoint data from the API.
-        
+
     Returns:
         A list of dictionaries, each representing a rule.
     """
     logging.info("Extracting rules from endpoint data...")
     rules = []
-    
-    # If endpoints is not a list, try to get the list from a key (e.g. "values")
+
     if not isinstance(endpoints, list):
         logging.warning("Endpoint data is not a list. Attempting to extract rules from dictionary values.")
         endpoints = endpoints.get("values", [])
-    
+
     for service in endpoints:
-        # Build the notes from all available metadata excluding hosts/IPs
         notes = build_notes(service)
-        
-        # Process URL entries
+
         for url in service.get("urls", []):
-            # Decide which key to use: remote-hosts or remote-domains
-            if url.startswith("*."):
-                key = "remote-domains"
-                value = [url[2:]]  # Remove the "*." prefix
-            else:
-                key = "remote-hosts"
-                value = [url]
+            key = "remote-domains" if url.startswith("*.") else "remote-hosts"
+            value = [url[2:]] if url.startswith("*.") else [url]
+            rules.append(create_rule(service, key, value, notes))
 
             if ADD_PORT_RULES:
-                # If TCP port info is available, create a rule for TCP.
                 if service.get("tcpPorts"):
-                    rule = {
-                        "action": "allow",
-                        "process": "ANY",
-                        key: value,
-                        "notes": notes,
-                        "ports": service["tcpPorts"].strip(),  # Comma-separated ports (e.g. "80,443")
-                        "protocol": "tcp"  # or "6" if you prefer the numeric protocol
-                    }
-                    rules.append(rule)
-                # If UDP port info is available, create a rule for UDP.
+                    rules.append(create_rule(service, key, value, notes, protocol="tcp", ports=service["tcpPorts"]))
                 if service.get("udpPorts"):
-                    rule = {
-                        "action": "allow",
-                        "process": "ANY",
-                        key: value,
-                        "notes": notes,
-                        "ports": service["udpPorts"].strip(),
-                        "protocol": "udp"
-                    }
-                    rules.append(rule)
-                # If neither TCP nor UDP ports are provided, add a default rule.
-                if not service.get("tcpPorts") and not service.get("udpPorts"):
-                    rule = {
-                        "action": "allow",
-                        "process": "ANY",
-                        key: value,
-                        "notes": notes
-                    }
-                    rules.append(rule)
-            else:
-                # Without port-specific rules, add one rule ignoring port info.
-                rule = {
-                    "action": "allow",
-                    "process": "ANY",
-                    key: value,
-                    "notes": notes
-                }
-                rules.append(rule)
+                    rules.append(create_rule(service, key, value, notes, protocol="udp", ports=service["udpPorts"]))
 
-        # Process IP entries in a similar way
         for ip in service.get("ips", []):
+            rules.append(create_rule(service, "remote-addresses", [ip], notes))
+
             if ADD_PORT_RULES:
                 if service.get("tcpPorts"):
-                    rule = {
-                        "action": "allow",
-                        "process": "ANY",
-                        "remote-addresses": [ip],
-                        "notes": notes,
-                        "ports": service["tcpPorts"].strip(),
-                        "protocol": "tcp"
-                    }
-                    rules.append(rule)
+                    rules.append(create_rule(service, "remote-addresses", [ip], notes, protocol="tcp", ports=service["tcpPorts"]))
                 if service.get("udpPorts"):
-                    rule = {
-                        "action": "allow",
-                        "process": "ANY",
-                        "remote-addresses": [ip],
-                        "notes": notes,
-                        "ports": service["udpPorts"].strip(),
-                        "protocol": "udp"
-                    }
-                    rules.append(rule)
-                if not service.get("tcpPorts") and not service.get("udpPorts"):
-                    rule = {
-                        "action": "allow",
-                        "process": "ANY",
-                        "remote-addresses": [ip],
-                        "notes": notes
-                    }
-                    rules.append(rule)
-            else:
-                rule = {
-                    "action": "allow",
-                    "process": "ANY",
-                    "remote-addresses": [ip],
-                    "notes": notes
-                }
-                rules.append(rule)
+                    rules.append(create_rule(service, "remote-addresses", [ip], notes, protocol="udp", ports=service["udpPorts"]))
 
     logging.info("Rules extraction complete.")
     return rules
 
-# Microsoft is the only provider supported at the moment
 def generate_ov_file(rules: List[Dict[str, Any]], provider: str = "microsoft") -> None:
     """
     Generate the Little Snitch .lsrules rule file and save it in the rules/ directory.
-    
+
     Args:
         rules: A list of rules to be written into the file.
         provider: The cloud provider name (used for naming the file).
-    
+
     Raises:
         IOError: If writing to the file fails.
     """
     logging.info(f"Generating .lsrules rule file for {provider}...")
 
-    # Define a static filename for easy subscription
     filename = f"cloud_rules_{provider}.lsrules"
     file_path = os.path.join(OUTPUT_DIR, filename)
 
