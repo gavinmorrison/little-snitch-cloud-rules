@@ -16,7 +16,7 @@ This script:
 - **Enhanced URL handling:** Wildcard domains are correctly processed (mostly).
 
 **Limitations:**
-- **Wildcard limitations:** Only leading wildcards are supported; mid-string wildcards (e.g. `autodiscover.*.onmicrosoft.com`) are not handled.
+- **Wildcard limitations:** Only leading wildcards are supported (e.g. `*.microsoft.com`); as of March 2025, this impacts two URLs: `autodiscover.*.onmicrosoft.com` and `*cdn.onenote.net`.
 - **Provider support:** Currently, only Microsoft Cloud endpoints are supported.
 - **No granularity:** Currently, any of the 'allowed' endpoints will be added, with no options for granularity.
 
@@ -24,7 +24,7 @@ This script:
 
 | Provider    | Status       | API Used |
 |-------------|-------------|----------|
-| Microsoft Cloud (Office 365, Entra ID, etc.) | ✅ Supported | [Microsoft Endpoint API](https://endpoints.office.com) |
+| Microsoft (Office 365, Entra ID, etc.) | ✅ Supported | [Microsoft Endpoint API](http://aka.ms/ipurlws) |
 
 ## Why Use This?
 
