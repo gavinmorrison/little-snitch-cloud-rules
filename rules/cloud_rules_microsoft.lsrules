@@ -1946,6 +1946,16 @@
         {
             "action": "allow",
             "process": "ANY",
+            "remote-domains": [
+                "onenote.net"
+            ],
+            "notes": "id: 51\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "protocol": "tcp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
             "remote-hosts": [
                 "ajax.aspnetcdn.com"
             ],
