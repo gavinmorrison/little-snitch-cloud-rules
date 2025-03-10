@@ -132,7 +132,10 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
 
         for url in service.get("urls", []):
             # Apply URL overrides, if any
-            url = URL_OVERRIDES.get(url, url)
+            new_url = URL_OVERRIDES.get(url)
+            if new_url is not None:
+                logging.info(f"URL override applied: {url} -> {new_url}")
+                url = new_url
             
             if "*" in url:
                 # Valid wildcard: must start with "*." and only contain one "*" character.
