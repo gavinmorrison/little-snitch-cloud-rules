@@ -28,10 +28,10 @@ from typing import Any, Dict, List
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 # Configuration settings
-ADD_PORT_RULES = True
-FORCE_QUIC_OVERRIDE = True # Always add UDP port 443 rule where TCP 443 is present
-OUTPUT_DIR = "rules"
-BASE_MS_API_URL = "https://endpoints.office.com/endpoints/worldwide"
+ADD_PORT_RULES = True # Add rules for specific TCP/UDP ports
+FORCE_QUIC_OVERRIDE = True # Always add UDP port 443 rule where TCP 443 is present (Microsoft documentation does not always include QUIC)
+OUTPUT_DIR = "rules" # Output directory for generated .lsrules files
+BASE_MS_API_URL = "https://endpoints.office.com/endpoints/worldwide" # Microsoft API URL
 
 # Ensure the output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
