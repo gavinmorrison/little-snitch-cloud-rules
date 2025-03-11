@@ -29,6 +29,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 
 # Configuration settings
 ADD_PORT_RULES = True
+FORCE_QUIC_OVERRIDE = True # Always add UDP port 443 rule where TCP 443 is present
 OUTPUT_DIR = "rules"
 BASE_MS_API_URL = "https://endpoints.office.com/endpoints/worldwide"
 
@@ -153,6 +154,9 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
             if ADD_PORT_RULES:
                 if service.get("tcpPorts"):
                     rules.append(create_rule(service, key, value, notes, protocol="tcp", ports=service["tcpPorts"]))
+                    # Add UDP 443 rule if FORCE_QUIC_OVERRIDE is true and TCP 443 is present
+                    if FORCE_QUIC_OVERRIDE and "443" in service["tcpPorts"].split(","):
+                        rules.append(create_rule(service, key, value, notes, protocol="udp", ports="443"))
                 if service.get("udpPorts"):
                     rules.append(create_rule(service, key, value, notes, protocol="udp", ports=service["udpPorts"]))
                 if not service.get("tcpPorts") and not service.get("udpPorts"):
@@ -164,6 +168,9 @@ def extract_rules(endpoints: Any) -> List[Dict[str, Any]]:
             if ADD_PORT_RULES:
                 if service.get("tcpPorts"):
                     rules.append(create_rule(service, "remote-addresses", [ip], notes, protocol="tcp", ports=service["tcpPorts"]))
+                    # Add UDP 443 rule if FORCE_QUIC_OVERRIDE is true and TCP 443 is present
+                    if FORCE_QUIC_OVERRIDE and "443" in service["tcpPorts"].split(","):
+                        rules.append(create_rule(service, "remote-addresses", [ip], notes, protocol="udp", ports="443"))
                 if service.get("udpPorts"):
                     rules.append(create_rule(service, "remote-addresses", [ip], notes, protocol="udp", ports=service["udpPorts"]))
                 if not service.get("tcpPorts") and not service.get("udpPorts"):
