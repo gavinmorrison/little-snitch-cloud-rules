@@ -1489,7 +1489,7 @@
             "remote-domains": [
                 "lync.com"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1499,7 +1499,17 @@
             "remote-domains": [
                 "lync.com"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-domains": [
+                "lync.com"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1509,7 +1519,7 @@
             "remote-domains": [
                 "teams.cloud.microsoft"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1519,7 +1529,17 @@
             "remote-domains": [
                 "teams.cloud.microsoft"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-domains": [
+                "teams.cloud.microsoft"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1529,7 +1549,7 @@
             "remote-domains": [
                 "teams.microsoft.com"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1539,7 +1559,17 @@
             "remote-domains": [
                 "teams.microsoft.com"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-domains": [
+                "teams.microsoft.com"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1549,7 +1579,7 @@
             "remote-hosts": [
                 "teams.cloud.microsoft"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1559,7 +1589,17 @@
             "remote-hosts": [
                 "teams.cloud.microsoft"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "teams.cloud.microsoft"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1569,7 +1609,7 @@
             "remote-hosts": [
                 "teams.microsoft.com"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1579,7 +1619,17 @@
             "remote-hosts": [
                 "teams.microsoft.com"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-hosts": [
+                "teams.microsoft.com"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1589,7 +1639,7 @@
             "remote-addresses": [
                 "52.112.0.0/14"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1599,7 +1649,17 @@
             "remote-addresses": [
                 "52.112.0.0/14"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-addresses": [
+                "52.112.0.0/14"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1609,7 +1669,7 @@
             "remote-addresses": [
                 "52.122.0.0/15"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1619,7 +1679,17 @@
             "remote-addresses": [
                 "52.122.0.0/15"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-addresses": [
+                "52.122.0.0/15"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1629,7 +1699,7 @@
             "remote-addresses": [
                 "52.238.119.141/32"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1639,7 +1709,17 @@
             "remote-addresses": [
                 "52.238.119.141/32"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-addresses": [
+                "52.238.119.141/32"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1649,7 +1729,7 @@
             "remote-addresses": [
                 "52.244.160.207/32"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1659,7 +1739,17 @@
             "remote-addresses": [
                 "52.244.160.207/32"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-addresses": [
+                "52.244.160.207/32"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1669,7 +1759,7 @@
             "remote-addresses": [
                 "2603:1027::/48"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1679,7 +1769,17 @@
             "remote-addresses": [
                 "2603:1027::/48"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-addresses": [
+                "2603:1027::/48"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1689,7 +1789,7 @@
             "remote-addresses": [
                 "2603:1037::/48"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1699,7 +1799,17 @@
             "remote-addresses": [
                 "2603:1037::/48"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-addresses": [
+                "2603:1037::/48"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1709,7 +1819,7 @@
             "remote-addresses": [
                 "2603:1047::/48"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1719,7 +1829,17 @@
             "remote-addresses": [
                 "2603:1047::/48"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-addresses": [
+                "2603:1047::/48"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1729,7 +1849,7 @@
             "remote-addresses": [
                 "2603:1057::/48"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1739,7 +1859,17 @@
             "remote-addresses": [
                 "2603:1057::/48"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-addresses": [
+                "2603:1057::/48"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1749,7 +1879,7 @@
             "remote-addresses": [
                 "2603:1063::/38"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1759,7 +1889,17 @@
             "remote-addresses": [
                 "2603:1063::/38"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-addresses": [
+                "2603:1063::/38"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1769,7 +1909,7 @@
             "remote-addresses": [
                 "2620:1ec:6::/48"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1779,7 +1919,17 @@
             "remote-addresses": [
                 "2620:1ec:6::/48"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-addresses": [
+                "2620:1ec:6::/48"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -1789,7 +1939,7 @@
             "remote-addresses": [
                 "2620:1ec:40::/42"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -1799,7 +1949,17 @@
             "remote-addresses": [
                 "2620:1ec:40::/42"
             ],
-            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-addresses": [
+                "2620:1ec:40::/42"
+            ],
+            "notes": "id: 12\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['*.lync.com', '*.teams.cloud.microsoft', '*.teams.microsoft.com', 'teams.cloud.microsoft', 'teams.microsoft.com']\nips: ['52.112.0.0/14', '52.122.0.0/15', '52.238.119.141/32', '52.244.160.207/32', '2603:1027::/48', '2603:1037::/48', '2603:1047::/48', '2603:1057::/48', '2603:1063::/38', '2620:1ec:6::/48', '2620:1ec:40::/42']\ntcpPorts: 80,443\nudpPorts: 443\ncategory: Allow\nexpressRoute: True\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
