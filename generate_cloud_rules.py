@@ -30,6 +30,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 # Configuration settings
 ADD_PORT_RULES = True # Add rules for specific TCP/UDP ports
 FORCE_QUIC_OVERRIDE = True # Always add UDP port 443 rule where TCP 443 is present (Microsoft documentation does not always include QUIC)
+# UPDATE 2025-04-05: This may no longer be necessary as Microsoft has updated their documentation to include UDP/QUIC rules.
 OUTPUT_DIR = "rules" # Output directory for generated .lsrules files
 BASE_MS_API_URL = "https://endpoints.office.com/endpoints/worldwide" # Microsoft API URL
 
