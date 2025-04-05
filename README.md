@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/gavinmorrison/little-snitch-cloud-rules/update-rules.yml?branch=main)](https://github.com/gavinmorrison/little-snitch-cloud-rules/actions)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/gavinmorrison/little-snitch-cloud-rules/generate-cloud-rules.yml?branch=main)](https://github.com/gavinmorrison/little-snitch-cloud-rules/actions)
 [![Requests](https://img.shields.io/badge/requests-2.25.1+-green.svg)](https://pypi.org/project/requests/)
 [![Last Updated](https://img.shields.io/github/last-commit/gavinmorrison/little-snitch-cloud-rules.svg)](https://github.com/gavinmorrison/little-snitch-cloud-rules/commits/main)
 
