@@ -1,4 +1,19 @@
+# 🔒 Little Snitch Cloud Rules Generator
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/gavinmorrison/little-snitch-cloud-rules/update-rules.yml?branch=main)](https://github.com/gavinmorrison/little-snitch-cloud-rules/actions)
+[![Requests](https://img.shields.io/badge/requests-2.25.1+-green.svg)](https://pypi.org/project/requests/)
+[![Last Updated](https://img.shields.io/github/last-commit/gavinmorrison/little-snitch-cloud-rules.svg)](https://github.com/gavinmorrison/little-snitch-cloud-rules/commits/main)
+
 This repository provides a Python script that fetches endpoint data from cloud service providers (initially only Microsoft) and generates **[Little Snitch](https://www.obdev.at/products/littlesnitch/index.html)** rule files to allow or restrict outbound traffic.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/macOS-compatible-brightgreen.svg" alt="macOS Compatible">
+  <img src="https://img.shields.io/badge/Little%20Snitch-compatible-orange.svg" alt="Little Snitch Compatible">
+</p>
+
+---
 
 ## Overview
 
@@ -48,8 +63,12 @@ pip install requests
 
 This project is **not affiliated with, endorsed by, or associated with Objective Development** or **Little Snitch** in any way. Little Snitch is a product of [Objective Development Software GmbH](https://www.obdev.at).
 
-⚠ **Use at Your Own Risk**  
+**Use at Your Own Risk**
 This script **should not be relied upon to reliably update your firewall rules** and should not be relied upon for security or compliance purposes. The generated rules are based on publicly available data but may be incomplete, outdated, or incorrect. **Users should manually verify all rules before applying them.**
 
-⚠ **Self-Hosting Recommended**  
+**Self-Hosting Recommended**
 If you intend to use these rules regularly, it is strongly recommended that you **host your own version** of this script or fork this repository to ensure control over updates.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
