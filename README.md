@@ -6,14 +6,11 @@
   <a href="https://github.com/gavinmorrison/little-snitch-cloud-rules/actions"><img src="https://img.shields.io/github/actions/workflow/status/gavinmorrison/little-snitch-cloud-rules/generate-cloud-rules.yml?branch=main" alt="GitHub Workflow Status"></a>
   <a href="https://pypi.org/project/requests/"><img src="https://img.shields.io/badge/requests-2.25.1+-green.svg" alt="Requests"></a>
   <a href="https://github.com/gavinmorrison/little-snitch-cloud-rules/commits/main"><img src="https://img.shields.io/github/last-commit/gavinmorrison/little-snitch-cloud-rules.svg" alt="Last Updated"></a>
-</p>
-
-This repository provides a Python script that fetches endpoint data from cloud service providers (initially only Microsoft) and generates **[Little Snitch](https://www.obdev.at/products/littlesnitch/index.html)** rule files to allow or restrict outbound traffic.
-
-<p align="center">
   <img src="https://img.shields.io/badge/macOS-compatible-brightgreen.svg" alt="macOS Compatible">
   <img src="https://img.shields.io/badge/Little%20Snitch-compatible-orange.svg" alt="Little Snitch Compatible">
 </p>
+
+This repository provides a Python script that fetches endpoint data from cloud service providers (initially only Microsoft) and generates **[Little Snitch](https://www.obdev.at/products/littlesnitch/index.html)** rule files to allow or restrict outbound traffic.
 
 ---
 
