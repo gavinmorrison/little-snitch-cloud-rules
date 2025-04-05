@@ -1,10 +1,12 @@
 # 🔒 Little Snitch Cloud Rules Generator
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/gavinmorrison/little-snitch-cloud-rules/generate-cloud-rules.yml?branch=main)](https://github.com/gavinmorrison/little-snitch-cloud-rules/actions)
-[![Requests](https://img.shields.io/badge/requests-2.25.1+-green.svg)](https://pypi.org/project/requests/)
-[![Last Updated](https://img.shields.io/github/last-commit/gavinmorrison/little-snitch-cloud-rules.svg)](https://github.com/gavinmorrison/little-snitch-cloud-rules/commits/main)
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.7+-blue.svg" alt="Python 3.7+"></a>
+  <a href="https://github.com/gavinmorrison/little-snitch-cloud-rules/actions"><img src="https://img.shields.io/github/actions/workflow/status/gavinmorrison/little-snitch-cloud-rules/generate-cloud-rules.yml?branch=main" alt="GitHub Workflow Status"></a>
+  <a href="https://pypi.org/project/requests/"><img src="https://img.shields.io/badge/requests-2.25.1+-green.svg" alt="Requests"></a>
+  <a href="https://github.com/gavinmorrison/little-snitch-cloud-rules/commits/main"><img src="https://img.shields.io/github/last-commit/gavinmorrison/little-snitch-cloud-rules.svg" alt="Last Updated"></a>
+</p>
 
 This repository provides a Python script that fetches endpoint data from cloud service providers (initially only Microsoft) and generates **[Little Snitch](https://www.obdev.at/products/littlesnitch/index.html)** rule files to allow or restrict outbound traffic.
 
