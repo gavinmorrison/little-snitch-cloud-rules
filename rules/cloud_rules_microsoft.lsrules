@@ -4969,7 +4969,7 @@
             "remote-domains": [
                 "sharepointonline.com"
             ],
-            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms', 'staffhub.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
+            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
             "protocol": "tcp",
             "ports": "443"
         },
@@ -4979,7 +4979,7 @@
             "remote-domains": [
                 "sharepointonline.com"
             ],
-            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms', 'staffhub.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
+            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
             "protocol": "udp",
             "ports": "443"
         },
@@ -4989,7 +4989,7 @@
             "remote-hosts": [
                 "dc.services.visualstudio.com"
             ],
-            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms', 'staffhub.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
+            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
             "protocol": "tcp",
             "ports": "443"
         },
@@ -4999,7 +4999,7 @@
             "remote-hosts": [
                 "dc.services.visualstudio.com"
             ],
-            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms', 'staffhub.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
+            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
             "protocol": "udp",
             "ports": "443"
         },
@@ -5009,7 +5009,7 @@
             "remote-hosts": [
                 "mem.gfx.ms"
             ],
-            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms', 'staffhub.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
+            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
             "protocol": "tcp",
             "ports": "443"
         },
@@ -5019,27 +5019,7 @@
             "remote-hosts": [
                 "mem.gfx.ms"
             ],
-            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms', 'staffhub.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
-            "protocol": "udp",
-            "ports": "443"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
-            "remote-hosts": [
-                "staffhub.ms"
-            ],
-            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms', 'staffhub.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
-            "protocol": "tcp",
-            "ports": "443"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
-            "remote-hosts": [
-                "staffhub.ms"
-            ],
-            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms', 'staffhub.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
+            "notes": "id: 75\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.sharepointonline.com', 'dc.services.visualstudio.com', 'mem.gfx.ms']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
             "protocol": "udp",
             "ports": "443"
         },
@@ -5829,7 +5809,7 @@
             "remote-domains": [
                 "yammer.com"
             ],
-            "notes": "id: 117\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.yammer.com', '*.yammerusercontent.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Yammer",
+            "notes": "id: 117\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.yammer.com', '*.yammerusercontent.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Viva Engage",
             "protocol": "tcp",
             "ports": "443"
         },
@@ -5839,7 +5819,7 @@
             "remote-domains": [
                 "yammer.com"
             ],
-            "notes": "id: 117\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.yammer.com', '*.yammerusercontent.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Yammer",
+            "notes": "id: 117\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.yammer.com', '*.yammerusercontent.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Viva Engage",
             "protocol": "udp",
             "ports": "443"
         },
@@ -5849,7 +5829,7 @@
             "remote-domains": [
                 "yammerusercontent.com"
             ],
-            "notes": "id: 117\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.yammer.com', '*.yammerusercontent.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Yammer",
+            "notes": "id: 117\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.yammer.com', '*.yammerusercontent.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Viva Engage",
             "protocol": "tcp",
             "ports": "443"
         },
@@ -5859,7 +5839,7 @@
             "remote-domains": [
                 "yammerusercontent.com"
             ],
-            "notes": "id: 117\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.yammer.com', '*.yammerusercontent.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Yammer",
+            "notes": "id: 117\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.yammer.com', '*.yammerusercontent.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Viva Engage",
             "protocol": "udp",
             "ports": "443"
         },
@@ -5869,7 +5849,7 @@
             "remote-domains": [
                 "assets-yammer.com"
             ],
-            "notes": "id: 118\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.assets-yammer.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Yammer CDN",
+            "notes": "id: 118\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.assets-yammer.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Viva Engage Assets CDN",
             "protocol": "tcp",
             "ports": "443"
         },
@@ -5879,7 +5859,7 @@
             "remote-domains": [
                 "assets-yammer.com"
             ],
-            "notes": "id: 118\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.assets-yammer.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Yammer CDN",
+            "notes": "id: 118\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.assets-yammer.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Viva Engage Assets CDN",
             "protocol": "udp",
             "ports": "443"
         },
@@ -6869,18 +6849,8 @@
             "remote-domains": [
                 "cloud.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "tcp",
-            "ports": "443,80"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
-            "remote-domains": [
-                "cloud.microsoft"
-            ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
-            "protocol": "udp",
             "ports": "443"
         },
         {
@@ -6889,7 +6859,17 @@
             "remote-domains": [
                 "cloud.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "protocol": "udp",
+            "ports": "443"
+        },
+        {
+            "action": "allow",
+            "process": "ANY",
+            "remote-domains": [
+                "cloud.microsoft"
+            ],
+            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -6899,9 +6879,9 @@
             "remote-domains": [
                 "static.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "tcp",
-            "ports": "443,80"
+            "ports": "443"
         },
         {
             "action": "allow",
@@ -6909,7 +6889,7 @@
             "remote-domains": [
                 "static.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -6919,7 +6899,7 @@
             "remote-domains": [
                 "static.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -6929,9 +6909,9 @@
             "remote-domains": [
                 "usercontent.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "tcp",
-            "ports": "443,80"
+            "ports": "443"
         },
         {
             "action": "allow",
@@ -6939,7 +6919,7 @@
             "remote-domains": [
                 "usercontent.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -6949,7 +6929,7 @@
             "remote-domains": [
                 "usercontent.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443,80\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         }
