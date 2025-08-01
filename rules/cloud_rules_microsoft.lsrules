@@ -6746,26 +6746,6 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
-                "compass-ssl.microsoft.com"
-            ],
-            "notes": "id: 180\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['compass-ssl.microsoft.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
-            "protocol": "tcp",
-            "ports": "443"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
-            "remote-hosts": [
-                "compass-ssl.microsoft.com"
-            ],
-            "notes": "id: 180\nserviceArea: Skype\nserviceAreaDisplayName: Microsoft Teams\nurls: ['compass-ssl.microsoft.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
-            "protocol": "udp",
-            "ports": "443"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
             "remote-domains": [
                 "cloud.microsoft"
             ],
