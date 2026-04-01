@@ -2377,29 +2377,9 @@
             "action": "allow",
             "process": "ANY",
             "remote-domains": [
-                "search.production.apac.trafficmanager.net"
-            ],
-            "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\nurls: ['*.search.production.apac.trafficmanager.net', '*.search.production.emea.trafficmanager.net', '*.search.production.us.trafficmanager.net']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents",
-            "protocol": "tcp",
-            "ports": "443"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
-            "remote-domains": [
-                "search.production.apac.trafficmanager.net"
-            ],
-            "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\nurls: ['*.search.production.apac.trafficmanager.net', '*.search.production.emea.trafficmanager.net', '*.search.production.us.trafficmanager.net']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents",
-            "protocol": "udp",
-            "ports": "443"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
-            "remote-domains": [
                 "search.production.emea.trafficmanager.net"
             ],
-            "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\nurls: ['*.search.production.apac.trafficmanager.net', '*.search.production.emea.trafficmanager.net', '*.search.production.us.trafficmanager.net']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents",
+            "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\nurls: ['*.search.production.emea.trafficmanager.net', '*.search.production.us.trafficmanager.net']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents",
             "protocol": "tcp",
             "ports": "443"
         },
@@ -2409,7 +2389,7 @@
             "remote-domains": [
                 "search.production.emea.trafficmanager.net"
             ],
-            "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\nurls: ['*.search.production.apac.trafficmanager.net', '*.search.production.emea.trafficmanager.net', '*.search.production.us.trafficmanager.net']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents",
+            "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\nurls: ['*.search.production.emea.trafficmanager.net', '*.search.production.us.trafficmanager.net']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents",
             "protocol": "udp",
             "ports": "443"
         },
@@ -2419,7 +2399,7 @@
             "remote-domains": [
                 "search.production.us.trafficmanager.net"
             ],
-            "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\nurls: ['*.search.production.apac.trafficmanager.net', '*.search.production.emea.trafficmanager.net', '*.search.production.us.trafficmanager.net']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents",
+            "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\nurls: ['*.search.production.emea.trafficmanager.net', '*.search.production.us.trafficmanager.net']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents",
             "protocol": "tcp",
             "ports": "443"
         },
@@ -2429,7 +2409,7 @@
             "remote-domains": [
                 "search.production.us.trafficmanager.net"
             ],
-            "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\nurls: ['*.search.production.apac.trafficmanager.net', '*.search.production.emea.trafficmanager.net', '*.search.production.us.trafficmanager.net']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents",
+            "notes": "id: 33\nserviceArea: SharePoint\nserviceAreaDisplayName: SharePoint Online and OneDrive for Business\nurls: ['*.search.production.emea.trafficmanager.net', '*.search.production.us.trafficmanager.net']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents",
             "protocol": "udp",
             "ports": "443"
         },
