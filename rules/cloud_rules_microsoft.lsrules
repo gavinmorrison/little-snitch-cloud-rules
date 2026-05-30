@@ -5209,7 +5209,7 @@
             "remote-hosts": [
                 "officecdn.microsoft.com"
             ],
-            "notes": "id: 92\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['officecdn.microsoft.com', 'officecdn.microsoft.com.edgesuite.net', 'otelrules.azureedge.net']\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 92\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['officecdn.microsoft.com', 'otelrules.azureedge.net']\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -5219,27 +5219,7 @@
             "remote-hosts": [
                 "officecdn.microsoft.com"
             ],
-            "notes": "id: 92\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['officecdn.microsoft.com', 'officecdn.microsoft.com.edgesuite.net', 'otelrules.azureedge.net']\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True",
-            "protocol": "udp",
-            "ports": "443"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
-            "remote-hosts": [
-                "officecdn.microsoft.com.edgesuite.net"
-            ],
-            "notes": "id: 92\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['officecdn.microsoft.com', 'officecdn.microsoft.com.edgesuite.net', 'otelrules.azureedge.net']\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True",
-            "protocol": "tcp",
-            "ports": "80,443"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
-            "remote-hosts": [
-                "officecdn.microsoft.com.edgesuite.net"
-            ],
-            "notes": "id: 92\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['officecdn.microsoft.com', 'officecdn.microsoft.com.edgesuite.net', 'otelrules.azureedge.net']\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 92\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['officecdn.microsoft.com', 'otelrules.azureedge.net']\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -5249,7 +5229,7 @@
             "remote-hosts": [
                 "otelrules.azureedge.net"
             ],
-            "notes": "id: 92\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['officecdn.microsoft.com', 'officecdn.microsoft.com.edgesuite.net', 'otelrules.azureedge.net']\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 92\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['officecdn.microsoft.com', 'otelrules.azureedge.net']\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "tcp",
             "ports": "80,443"
         },
@@ -5259,7 +5239,7 @@
             "remote-hosts": [
                 "otelrules.azureedge.net"
             ],
-            "notes": "id: 92\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['officecdn.microsoft.com', 'officecdn.microsoft.com.edgesuite.net', 'otelrules.azureedge.net']\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 92\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['officecdn.microsoft.com', 'otelrules.azureedge.net']\ntcpPorts: 80,443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
