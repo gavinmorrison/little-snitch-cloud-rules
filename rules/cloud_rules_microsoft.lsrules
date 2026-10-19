@@ -5446,26 +5446,6 @@
         {
             "action": "allow",
             "process": "ANY",
-            "remote-hosts": [
-                "www.acompli.com"
-            ],
-            "notes": "id: 105\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['www.acompli.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Outlook for Android and iOS: Outlook Privacy",
-            "protocol": "tcp",
-            "ports": "443"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
-            "remote-hosts": [
-                "www.acompli.com"
-            ],
-            "notes": "id: 105\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['www.acompli.com']\ntcpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: False\nnotes: Outlook for Android and iOS: Outlook Privacy",
-            "protocol": "udp",
-            "ports": "443"
-        },
-        {
-            "action": "allow",
-            "process": "ANY",
             "remote-domains": [
                 "appex-rf.msn.com"
             ],
@@ -6669,7 +6649,7 @@
             "remote-domains": [
                 "cloud.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "tcp",
             "ports": "443"
         },
@@ -6679,7 +6659,7 @@
             "remote-domains": [
                 "cloud.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -6689,7 +6669,7 @@
             "remote-domains": [
                 "cloud.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -6699,7 +6679,7 @@
             "remote-domains": [
                 "static.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 193\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "tcp",
             "ports": "443"
         },
@@ -6709,7 +6689,7 @@
             "remote-domains": [
                 "static.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 193\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -6719,7 +6699,7 @@
             "remote-domains": [
                 "static.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 193\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -6729,7 +6709,7 @@
             "remote-domains": [
                 "usercontent.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 193\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "tcp",
             "ports": "443"
         },
@@ -6739,7 +6719,7 @@
             "remote-domains": [
                 "usercontent.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 193\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         },
@@ -6749,7 +6729,7 @@
             "remote-domains": [
                 "usercontent.microsoft"
             ],
-            "notes": "id: 184\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.cloud.microsoft', '*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
+            "notes": "id: 193\nserviceArea: Common\nserviceAreaDisplayName: Microsoft 365 Common and Office Online\nurls: ['*.static.microsoft', '*.usercontent.microsoft']\ntcpPorts: 443\nudpPorts: 443\ncategory: Default\nexpressRoute: False\nrequired: True",
             "protocol": "udp",
             "ports": "443"
         }
